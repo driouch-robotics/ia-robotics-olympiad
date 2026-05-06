@@ -910,7 +910,10 @@ export function getTypeLabel(type, language) {
 
 function getQuestionTranslation(question, language) {
   if (language !== "fr") return null;
-  return question.fr ?? questionFr[question.id] ?? null;
+  const storedTranslation = questionFr[question.id] ?? {};
+  const inlineTranslation = question.fr ?? {};
+  const merged = { ...storedTranslation, ...inlineTranslation };
+  return Object.keys(merged).length ? merged : null;
 }
 
 export function getQuestionPrompt(question, language) {
@@ -919,6 +922,17 @@ export function getQuestionPrompt(question, language) {
 
 export function getQuestionExplanation(question, language) {
   return getQuestionTranslation(question, language)?.explanation ?? question.explanation;
+}
+
+export function getQuestionGuidance(question, language) {
+  const translatedGuidance = getQuestionTranslation(question, language)?.guidance;
+  if (translatedGuidance) return translatedGuidance;
+  if (language === "fr") {
+    if (question.level === "beginner") return "Lis la consigne et cherche le choix directement lié au domaine.";
+    if (question.level === "intermediate") return "Pense à l'usage pratique du concept, pas seulement à son nom.";
+    return "Le niveau avancé vise la compréhension et la vérification, pas la mémorisation des termes.";
+  }
+  return question.guidance ?? "";
 }
 
 export function getBooleanLabel(value, language) {

@@ -1398,15 +1398,15 @@ const questionExpansionSeeds = [
   ["intermediate", "ai", "tools", "اختيار أداة الذكاء الاصطناعي", "le choix d'un outil d'IA", "مطابقة المهمة مع الأداة المناسبة", "associer la tâche au bon outil"],
   ["intermediate", "ai", "data", "تنظيف البيانات", "le nettoyage des données", "إزالة الأخطاء قبل التحليل", "retirer les erreurs avant l'analyse"],
   ["intermediate", "ai", "vision", "Computer Vision", "la vision par ordinateur", "تحليل الصور والفيديو", "analyser les images et les vidéos"],
-  ["advanced", "ai", "ai", "RAG", "le RAG", "ربط النموذج بمصادر معرفة موثوقة", "relier le modèle à des sources fiables"],
-  ["advanced", "ai", "data", "Embedding", "l'embedding", "تمثيل المعنى بأرقام قابلة للمقارنة", "représenter le sens avec des nombres comparables"],
-  ["advanced", "ai", "ai", "Context Window", "la fenêtre de contexte", "تحديد كمية النص التي يراها النموذج", "limiter la quantité de texte visible par le modèle"],
-  ["advanced", "ai", "data", "Overfitting", "le surapprentissage", "فهم لماذا يحفظ النموذج التدريب بدل التعميم", "comprendre pourquoi un modèle mémorise au lieu de généraliser"],
-  ["advanced", "ai", "data", "Precision و Recall", "la précision et le rappel", "تقييم التصنيف عندما تكون البيانات غير متوازنة", "évaluer une classification avec des données déséquilibrées"],
-  ["advanced", "ai", "data", "Vector Database", "la base vectorielle", "البحث عن نصوص قريبة في المعنى", "rechercher des textes proches par le sens"],
-  ["advanced", "ai", "tools", "AI Agent", "l'agent IA", "تنفيذ خطوات متعددة باستعمال أدوات", "exécuter plusieurs étapes avec des outils"],
+  ["advanced", "ai", "ai", "نظام يربط الذكاء الاصطناعي بمصادر موثوقة (RAG)", "un système qui relie l'IA à des sources fiables (RAG)", "ربط النموذج بمصادر معرفة موثوقة", "relier le modèle à des sources fiables"],
+  ["advanced", "ai", "data", "تمثيل المعنى بالأرقام (Embedding)", "la représentation du sens par des nombres (embedding)", "تمثيل المعنى بأرقام قابلة للمقارنة", "représenter le sens avec des nombres comparables"],
+  ["advanced", "ai", "ai", "نافذة السياق في النموذج", "la fenêtre de contexte du modèle", "تحديد كمية النص التي يراها النموذج", "limiter la quantité de texte visible par le modèle"],
+  ["advanced", "ai", "data", "حفظ التدريب بدل الفهم العام", "la mémorisation au lieu de la généralisation", "فهم لماذا يحفظ النموذج التدريب بدل التعميم", "comprendre pourquoi un modèle mémorise au lieu de généraliser"],
+  ["advanced", "ai", "data", "مقاييس جودة التصنيف", "les mesures de qualité d'une classification", "تقييم التصنيف عندما تكون البيانات غير متوازنة", "évaluer une classification avec des données déséquilibrées"],
+  ["advanced", "ai", "data", "قاعدة بحث بالمعنى", "une base de recherche par le sens", "البحث عن نصوص قريبة في المعنى", "rechercher des textes proches par le sens"],
+  ["advanced", "ai", "tools", "مساعد ذكي يستعمل أدوات", "un assistant IA qui utilise des outils", "تنفيذ خطوات متعددة باستعمال أدوات", "exécuter plusieurs étapes avec des outils"],
   ["advanced", "ai", "security", "سلامة النماذج", "la sûreté des modèles", "تقليل الإجابات الخطيرة أو المضللة", "réduire les réponses dangereuses ou trompeuses"],
-  ["advanced", "ai", "tools", "Prompt Few-shot", "le prompt few-shot", "تعليم النموذج بأمثلة قليلة داخل الطلب", "guider le modèle avec quelques exemples dans la consigne"],
+  ["advanced", "ai", "tools", "تعليم النموذج بأمثلة قليلة", "guider le modèle avec quelques exemples", "تعليم النموذج بأمثلة قليلة داخل الطلب", "guider le modèle avec quelques exemples dans la consigne"],
 
   ["beginner", "robotics", "robot", "الروبوت", "le robot", "تنفيذ مهام آلية في العالم الحقيقي", "réaliser des tâches automatiques dans le monde réel"],
   ["beginner", "robotics", "sensor", "الحساس", "le capteur", "قراءة معلومات من المحيط", "lire des informations de l'environnement"],
@@ -1425,13 +1425,13 @@ const questionExpansionSeeds = [
   ["intermediate", "robotics", "robot", "I2C", "l'I2C", "تواصل عدة مكونات عبر أسلاك قليلة", "faire communiquer plusieurs composants avec peu de fils"],
   ["intermediate", "robotics", "robot", "إدارة الطاقة", "la gestion de l'énergie", "تجنب هبوط الجهد وتعطل الروبوت", "éviter les chutes de tension et les pannes"],
   ["advanced", "robotics", "sensor", "Sensor Fusion", "la fusion de capteurs", "دمج قياسات متعددة لقرار أدق", "combiner plusieurs mesures pour une décision plus précise"],
-  ["advanced", "robotics", "robot", "SLAM", "le SLAM", "بناء خريطة وتحديد موقع الروبوت", "construire une carte et localiser le robot"],
+  ["advanced", "robotics", "robot", "رسم خريطة مع تحديد موقع الروبوت", "cartographier tout en localisant le robot", "بناء خريطة وتحديد موقع الروبوت", "construire une carte et localiser le robot"],
   ["advanced", "robotics", "sensor", "Odometry", "l'odométrie", "تقدير الحركة من دوران العجلات", "estimer le déplacement à partir des roues"],
-  ["advanced", "robotics", "robot", "Kinematics", "la cinématique", "ربط حركة المفاصل بحركة الجسم", "relier les mouvements des articulations au corps"],
+  ["advanced", "robotics", "robot", "علاقة المفاصل بحركة الروبوت", "la relation entre les articulations et le mouvement du robot", "ربط حركة المفاصل بحركة الجسم", "relier les mouvements des articulations au corps"],
   ["advanced", "robotics", "robot", "Path Planning", "la planification de trajectoire", "اختيار مسار آمن نحو الهدف", "choisir un chemin sûr vers l'objectif"],
-  ["advanced", "robotics", "sensor", "Kalman Filter", "le filtre de Kalman", "تقليل الضجيج في القياسات", "réduire le bruit dans les mesures"],
+  ["advanced", "robotics", "sensor", "تصفية ضجيج القياسات", "le filtrage du bruit dans les mesures", "تقليل الضجيج في القياسات", "réduire le bruit dans les mesures"],
   ["advanced", "robotics", "robot", "Real-time Control", "le contrôle temps réel", "اتخاذ القرار داخل زمن محدود", "prendre une décision dans un délai limité"],
-  ["advanced", "robotics", "robot", "ROS", "ROS", "تنظيم برمجيات الروبوت في وحدات متواصلة", "organiser le logiciel robotique en modules communicants"],
+  ["advanced", "robotics", "robot", "تنظيم برامج الروبوت في وحدات", "l'organisation du logiciel robotique en modules", "تنظيم برمجيات الروبوت في وحدات متواصلة", "organiser le logiciel robotique en modules communicants"],
   ["advanced", "robotics", "security", "Safety Interlock", "le verrouillage de sécurité", "إيقاف الروبوت عند خطر واضح", "arrêter le robot en cas de danger"],
 
   ["beginner", "cs", "code", "الخوارزمية", "l'algorithme", "حل مشكلة بخطوات مرتبة", "résoudre un problème par étapes ordonnées"],
@@ -1452,11 +1452,11 @@ const questionExpansionSeeds = [
   ["intermediate", "cs", "code", "Git", "Git", "تتبع تغييرات المشروع البرمجي", "suivre les changements d'un projet logiciel"],
   ["advanced", "cs", "code", "Graph", "le graphe", "تمثيل علاقات بين عناصر كثيرة", "représenter des relations entre de nombreux éléments"],
   ["advanced", "cs", "code", "Recursion", "la récursion", "حل مسألة باستدعاء نفس الفكرة", "résoudre un problème en réutilisant la même idée"],
-  ["advanced", "cs", "code", "Dynamic Programming", "la programmation dynamique", "تجنب إعادة حساب نفس النتائج", "éviter de recalculer les mêmes résultats"],
-  ["advanced", "cs", "code", "Big O", "la notation Big O", "تقدير نمو زمن أو ذاكرة الخوارزمية", "estimer la croissance du temps ou de la mémoire"],
+  ["advanced", "cs", "code", "البرمجة الديناميكية المبسطة", "la programmation dynamique simplifiée", "تجنب إعادة حساب نفس النتائج", "éviter de recalculer les mêmes résultats"],
+  ["advanced", "cs", "code", "تقدير سرعة الخوارزمية", "l'estimation de la vitesse d'un algorithme", "تقدير نمو زمن أو ذاكرة الخوارزمية", "estimer la croissance du temps ou de la mémoire"],
   ["advanced", "cs", "code", "Hash Table", "la table de hachage", "الوصول السريع إلى قيمة عبر مفتاح", "accéder vite à une valeur par clé"],
   ["advanced", "cs", "code", "Tree", "l'arbre", "تمثيل بيانات هرمية", "représenter des données hiérarchiques"],
-  ["advanced", "cs", "code", "Concurrency", "la concurrence", "تنفيذ مهام متعددة بتنسيق", "exécuter plusieurs tâches de façon coordonnée"],
+  ["advanced", "cs", "code", "تنسيق مهام متعددة", "la coordination de plusieurs tâches", "تنفيذ مهام متعددة بتنسيق", "exécuter plusieurs tâches de façon coordonnée"],
   ["advanced", "cs", "code", "Database Index", "l'index de base de données", "تسريع البحث داخل قاعدة بيانات", "accélérer la recherche dans une base de données"],
   ["advanced", "cs", "code", "اختبارات الوحدة", "les tests unitaires", "التحقق من أجزاء صغيرة من الكود", "vérifier de petites parties du code"],
 
@@ -1478,98 +1478,287 @@ const questionExpansionSeeds = [
   ["intermediate", "tech", "tech", "Database", "la base de données", "تنظيم معلومات قابلة للبحث", "organiser des informations recherchables"],
   ["advanced", "tech", "security", "التشفير", "le chiffrement", "حماية البيانات بتحويلها لصيغة غير مفهومة", "protéger les données en les rendant illisibles"],
   ["advanced", "tech", "security", "Firewall", "le pare-feu", "فلترة حركة الشبكة حسب قواعد", "filtrer le trafic réseau selon des règles"],
-  ["advanced", "tech", "tech", "Container", "le conteneur", "تشغيل تطبيق مع اعتمادياته في بيئة معزولة", "exécuter une application avec ses dépendances dans un environnement isolé"],
-  ["advanced", "tech", "network", "Load Balancer", "le répartiteur de charge", "توزيع الطلبات على عدة خوادم", "répartir les requêtes entre plusieurs serveurs"],
-  ["advanced", "tech", "tech", "CI/CD", "le CI/CD", "أتمتة اختبار ونشر البرمجيات", "automatiser les tests et le déploiement"],
+  ["advanced", "tech", "tech", "تشغيل تطبيق في حاوية معزولة", "exécuter une application dans un conteneur isolé", "تشغيل تطبيق مع اعتمادياته في بيئة معزولة", "exécuter une application avec ses dépendances dans un environnement isolé"],
+  ["advanced", "tech", "network", "توزيع الطلبات على عدة خوادم", "la répartition des requêtes sur plusieurs serveurs", "توزيع الطلبات على عدة خوادم", "répartir les requêtes entre plusieurs serveurs"],
+  ["advanced", "tech", "tech", "أتمتة اختبار ونشر البرمجيات", "l'automatisation des tests et du déploiement", "أتمتة اختبار ونشر البرمجيات", "automatiser les tests et le déploiement"],
   ["advanced", "tech", "network", "Monitoring", "la supervision", "مراقبة صحة الأنظمة والأداء", "surveiller la santé et la performance des systèmes"],
-  ["advanced", "tech", "security", "Zero Trust", "le Zero Trust", "التحقق المستمر بدل الثقة التلقائية", "vérifier en continu au lieu de faire confiance automatiquement"],
-  ["advanced", "tech", "security", "TLS", "TLS", "تأمين الاتصال بين العميل والخادم", "sécuriser la connexion entre client et serveur"],
+  ["advanced", "tech", "security", "الثقة الصفرية في الأمن", "la sécurité Zero Trust", "التحقق المستمر بدل الثقة التلقائية", "vérifier en continu au lieu de faire confiance automatiquement"],
+  ["advanced", "tech", "security", "تأمين الاتصال بين المتصفح والخادم", "la sécurisation de la connexion entre navigateur et serveur", "تأمين الاتصال بين العميل والخادم", "sécuriser la connexion entre client et serveur"],
   ["advanced", "tech", "security", "Incident Response", "la réponse à incident", "تقليل أثر حادث أمني واسترجاع العمل", "réduire l'impact d'un incident et rétablir le service"],
 ];
+
+const categoryChallengeDistractors = {
+  ai: {
+    ar: {
+      weakAction: "قبول أول جواب من النموذج دون تحقق أو مقارنة",
+      shortcut: "استعمال أداة مشهورة قبل تحديد نوع المهمة والمعيار",
+      surface: "تغيير صياغة السؤال فقط دون توضيح السياق أو الهدف",
+      risk: "اعتبار النتيجة صحيحة لأنها مكتوبة بثقة",
+    },
+    fr: {
+      weakAction: "accepter la première réponse du modèle sans vérification",
+      shortcut: "choisir un outil populaire avant de préciser la tâche et le critère",
+      surface: "changer seulement la formulation sans préciser le contexte ni l'objectif",
+      risk: "considérer la réponse correcte parce qu'elle est rédigée avec assurance",
+    },
+  },
+  robotics: {
+    ar: {
+      weakAction: "زيادة سرعة المحركات قبل قراءة الحساسات وتحليل الخطأ",
+      shortcut: "تغيير البطارية أو الأسلاك عشوائيا دون اختبار مرحلة بمرحلة",
+      surface: "تحسين شكل الروبوت قبل التأكد من السلوك المطلوب",
+      risk: "تشغيل المحركات مباشرة دون حدود أمان أو دارة تحكم مناسبة",
+    },
+    fr: {
+      weakAction: "augmenter la vitesse des moteurs avant de lire les capteurs et l'erreur",
+      shortcut: "changer la batterie ou les câbles au hasard sans test étape par étape",
+      surface: "améliorer l'apparence du robot avant de vérifier le comportement attendu",
+      risk: "alimenter les moteurs directement sans limites de sécurité ni circuit adapté",
+    },
+  },
+  cs: {
+    ar: {
+      weakAction: "كتابة الكود مباشرة قبل فهم الحالات الحدية",
+      shortcut: "اختيار بنية بيانات عشوائية لأنها مألوفة فقط",
+      surface: "تجميل الواجهة قبل التأكد من صحة الخوارزمية",
+      risk: "الحكم على الحل من مثال واحد دون اختبار التعقيد أو الحالات الخاصة",
+    },
+    fr: {
+      weakAction: "coder directement avant de comprendre les cas limites",
+      shortcut: "choisir une structure de données au hasard parce qu'elle est familière",
+      surface: "soigner l'interface avant de vérifier la validité de l'algorithme",
+      risk: "juger la solution avec un seul exemple sans tester la complexité ni les cas particuliers",
+    },
+  },
+  tech: {
+    ar: {
+      weakAction: "اختيار تقنية مشهورة دون تحديد الحاجة أو المخاطر",
+      shortcut: "تعطيل الحماية لتسهيل الاستعمال السريع",
+      surface: "تغيير إعدادات الشكل بدل معالجة سبب المشكل",
+      risk: "تأجيل النسخ الاحتياطي أو المراقبة إلى ما بعد وقوع العطل",
+    },
+    fr: {
+      weakAction: "choisir une technologie populaire sans préciser le besoin ni les risques",
+      shortcut: "désactiver la protection pour faciliter l'utilisation rapide",
+      surface: "changer les réglages visuels au lieu de traiter la cause du problème",
+      risk: "reporter la sauvegarde ou la supervision après l'incident",
+    },
+  },
+};
 
 function makeExpansionSeed(rawSeed) {
   const [level, category, visual, arTopic, frTopic, arRole, frRole] = rawSeed;
   const context = categoryQuestionContext[category];
+  const distractors = categoryChallengeDistractors[category];
   return {
     level,
     category,
     visual,
     ar: {
       topic: arTopic,
-      definition: `${arTopic} ${context.arConceptKind} يساعد على ${arRole}.`,
-      useCase: `نستعمل ${arTopic} عندما نحتاج إلى ${arRole}.`,
-      benefit: `يساعد ${arTopic} على إنجاز ${arRole} بدقة وتنظيم.`,
-      misconception: `${arTopic} مجرد اسم تجاري ولا يؤثر على الحل.`,
-      offTopic: context.arOffTopic,
+      role: arRole,
+      definition: `الفكرة الأساسية في ${arTopic} أنه ${context.arConceptKind} يساعد على ${arRole}.`,
+      groundedUse: `اختيار ${arTopic} مناسب عندما تكون المهمة هي ${arRole}، ثم نختبر النتيجة.`,
+      verification: `اختبار ${arTopic} بأمثلة متنوعة ومقارنة النتيجة بالهدف.`,
+      misconception: `اختيار ${arTopic} دون تحديد الهدف أو اختبار النتيجة.`,
+      weakAction: distractors.ar.weakAction,
+      shortcut: distractors.ar.shortcut,
+      surface: distractors.ar.surface,
+      risk: distractors.ar.risk,
     },
     fr: {
       topic: frTopic,
-      definition: `${frTopic} est ${context.frConceptKind} qui aide à ${frRole}.`,
-      useCase: `On utilise ${frTopic} quand on doit ${frRole}.`,
-      benefit: `${frTopic} aide à ${frRole} avec plus de précision et d'organisation.`,
-      misconception: `${frTopic} est seulement un nom commercial sans effet sur la solution.`,
-      offTopic: context.frOffTopic,
+      role: frRole,
+      definition: `L'idée principale de ${frTopic} est d'être ${context.frConceptKind} qui aide à ${frRole}.`,
+      groundedUse: `choisir ${frTopic} lorsque la tâche est de ${frRole}, puis tester le résultat.`,
+      verification: `tester ${frTopic} sur des cas variés et comparer le résultat à l'objectif.`,
+      misconception: `choisir ${frTopic} sans préciser l'objectif ni tester le résultat.`,
+      weakAction: distractors.fr.weakAction,
+      shortcut: distractors.fr.shortcut,
+      surface: distractors.fr.surface,
+      risk: distractors.fr.risk,
     },
   };
+}
+
+function localizedLevelPrompts(seed) {
+  const prompts = {
+    beginner: {
+      arDirect: `في نشاط بسيط داخل النادي، نحتاج إلى ${seed.ar.role}. ما الاختيار الأنسب؟`,
+      frDirect: `Dans une activité simple du club, on doit ${seed.fr.role}. Quel choix convient le mieux ?`,
+      arScenario: `كيف نعرف أن استعمال ${seed.ar.topic} كان مناسبا؟`,
+      frScenario: `Comment savoir si l'utilisation de ${seed.fr.topic} était adaptée ?`,
+      arThinking: `أي تصرف قد يجعل استعمال ${seed.ar.topic} يعطي نتيجة مضللة؟`,
+      frThinking: `Quelle action peut rendre l'utilisation de ${seed.fr.topic} trompeuse ?`,
+    },
+    intermediate: {
+      arDirect: `مشروع صغير واجه حاجة إلى ${seed.ar.role}. ما القرار الأول الأكثر منطقية؟`,
+      frDirect: `Un petit projet doit ${seed.fr.role}. Quelle est la première décision la plus logique ?`,
+      arScenario: `بعد استعمال ${seed.ar.topic} ظهرت نتائج غير مستقرة. ما الخطوة الأفضل قبل تغيير الحل؟`,
+      frScenario: `Après l'utilisation de ${seed.fr.topic}, les résultats sont instables. Quelle étape faut-il faire avant de changer la solution ?`,
+      arThinking: `اختر قرارين يجعلان استعمال ${seed.ar.topic} أقوى وأقل عشوائية.`,
+      frThinking: `Choisis deux décisions qui rendent l'utilisation de ${seed.fr.topic} plus solide et moins aléatoire.`,
+    },
+    advanced: {
+      arDirect: `في نظام حقيقي، متى يصبح استعمال ${seed.ar.topic} مبررا تقنيا؟`,
+      frDirect: `Dans un système réel, quand l'utilisation de ${seed.fr.topic} devient-elle techniquement justifiée ?`,
+      arScenario: `فريق اعتمد على ${seed.ar.topic} لكن النتيجة فشلت في حالات جديدة. ما التشخيص الأقرب؟`,
+      frScenario: `Une équipe utilise ${seed.fr.topic}, mais le résultat échoue sur de nouveaux cas. Quel diagnostic est le plus proche ?`,
+      arThinking: `أي خطر تقني يجب الانتباه إليه قبل الاعتماد على ${seed.ar.topic}؟`,
+      frThinking: `Quel risque technique faut-il surveiller avant de s'appuyer sur ${seed.fr.topic} ?`,
+    },
+  };
+  return prompts[seed.level];
+}
+
+function studentGuidance(seed) {
+  const guidance = {
+    beginner: {
+      ar: "ركز على الفكرة اليومية: ما الحاجة؟ وما الأداة أو المفهوم الذي يخدمها مباشرة؟",
+      fr: "Concentre-toi sur l'idée pratique : quel est le besoin et quel outil ou concept y répond directement ?",
+    },
+    intermediate: {
+      ar: "فكر في القرار العملي: لا تختار الاسم فقط، بل اختر الخطوة التي تحسن النتيجة ويمكن اختبارها.",
+      fr: "Pense à la décision pratique : ne choisis pas seulement le nom, mais l'étape qui améliore le résultat et peut être testée.",
+    },
+    advanced: {
+      ar: "المستوى المتقدم هنا لا يطلب حفظ مصطلحات؛ المطلوب فهم الفكرة، الخطر، وطريقة التحقق.",
+      fr: "Le niveau avancé ne demande pas de mémoriser des termes ; il faut comprendre l'idée, le risque et la vérification.",
+    },
+  };
+  return guidance[seed.level];
 }
 
 function buildGeneratedQuestions(rawSeed, index) {
   const seed = makeExpansionSeed(rawSeed);
   const context = categoryQuestionContext[seed.category];
+  const prompts = localizedLevelPrompts(seed);
+  const guidance = studentGuidance(seed);
   const baseId = `x-${seed.level.slice(0, 1)}-${seed.category}-${String(index + 1).padStart(3, "0")}`;
   const common = {
     level: seed.level,
     category: seed.category,
     visual: seed.visual,
+    guidance: guidance.ar,
   };
 
-  const definitionQuestion = {
+  const directQuestion = {
     ...common,
-    id: `${baseId}-def`,
+    id: `${baseId}-direct`,
     type: "choice",
-    prompt: `ما أفضل وصف لـ ${seed.ar.topic}؟`,
-    options: [seed.ar.definition, seed.ar.misconception, seed.ar.offTopic, "إيقاف الجهاز دون سبب"],
-    answer: seed.ar.definition,
-    explanation: seed.ar.definition,
+    prompt: prompts.arDirect,
+    options: [seed.ar.groundedUse, seed.ar.shortcut, seed.ar.surface, seed.ar.misconception],
+    answer: seed.ar.groundedUse,
+    explanation: `${seed.ar.definition} الاختيار الجيد يبدأ من الحاجة ثم يثبت بالاختبار.`,
     fr: {
-      prompt: `Quelle est la meilleure description de ${seed.fr.topic} ?`,
-      options: [seed.fr.definition, seed.fr.misconception, seed.fr.offTopic, "éteindre l'appareil sans raison"],
-      explanation: seed.fr.definition,
+      prompt: prompts.frDirect,
+      options: [seed.fr.groundedUse, seed.fr.shortcut, seed.fr.surface, seed.fr.misconception],
+      guidance: guidance.fr,
+      explanation: `${seed.fr.definition} Le bon choix part du besoin puis se confirme par le test.`,
     },
   };
 
-  const useCaseQuestion = {
+  const scenarioQuestion = {
     ...common,
-    id: `${baseId}-use`,
+    id: `${baseId}-scenario`,
     type: "choice",
-    prompt: `متى يكون استعمال ${seed.ar.topic} مناسبا؟`,
-    options: [seed.ar.useCase, seed.ar.offTopic, seed.ar.misconception, "عندما نريد حذف كل الاختبارات"],
-    answer: seed.ar.useCase,
-    explanation: seed.ar.benefit,
+    prompt: prompts.arScenario,
+    options: [seed.ar.verification, seed.ar.weakAction, seed.ar.surface, seed.ar.risk],
+    answer: seed.ar.verification,
+    explanation: "السؤال لا يكتفي بمعرفة الاسم؛ المطلوب هو فهم كيف نتحقق من صحة الاختيار.",
     fr: {
-      prompt: `Quand l'utilisation de ${seed.fr.topic} est-elle adaptée ?`,
-      options: [seed.fr.useCase, seed.fr.offTopic, seed.fr.misconception, "quand on veut supprimer tous les tests"],
-      explanation: seed.fr.benefit,
+      prompt: prompts.frScenario,
+      options: [seed.fr.verification, seed.fr.weakAction, seed.fr.surface, seed.fr.risk],
+      guidance: guidance.fr,
+      explanation: "La question ne vérifie pas seulement le nom du concept ; elle demande comment valider le choix.",
     },
   };
 
-  const isTrue = index % 2 === 0;
-  const booleanQuestion = {
-    ...common,
-    id: `${baseId}-tf`,
-    type: "boolean",
-    prompt: isTrue
-      ? `${seed.ar.topic} يساعد في ${context.arDomain} لأنه يرتبط بـ ${rawSeed[5]}.`
-      : `${seed.ar.topic} يرتبط فقط بـ ${seed.ar.offTopic}.`,
-    answer: isTrue,
-    explanation: isTrue ? seed.ar.benefit : `هذا غير صحيح؛ ${seed.ar.definition}`,
-    fr: {
-      prompt: isTrue
-        ? `${seed.fr.topic} aide dans ${context.frDomain} car il est lié à ${rawSeed[6]}.`
-        : `${seed.fr.topic} est lié uniquement à ${seed.fr.offTopic}.`,
-      explanation: isTrue ? seed.fr.benefit : `Ce n'est pas correct ; ${seed.fr.definition}`,
-    },
-  };
+  let thinkingQuestion;
+  if (index % 3 === 0) {
+    const multiPrompt = {
+      beginner: {
+        ar: `اختر قرارين يساعدان على استعمال ${seed.ar.topic} بطريقة صحيحة.`,
+        fr: `Choisis deux décisions qui aident à utiliser ${seed.fr.topic} correctement.`,
+      },
+      intermediate: {
+        ar: `اختر قرارين يجعلان استعمال ${seed.ar.topic} أقوى وأقل عشوائية.`,
+        fr: `Choisis deux décisions qui rendent l'utilisation de ${seed.fr.topic} plus solide et moins aléatoire.`,
+      },
+      advanced: {
+        ar: `اختر قرارين يقللان مخاطر الاعتماد على ${seed.ar.topic} في نظام حقيقي.`,
+        fr: `Choisis deux décisions qui réduisent les risques liés à ${seed.fr.topic} dans un système réel.`,
+      },
+    }[seed.level];
+    thinkingQuestion = {
+      ...common,
+      id: `${baseId}-thinking-multi`,
+      type: "multi",
+      prompt: multiPrompt.ar,
+      options: [seed.ar.groundedUse, seed.ar.verification, seed.ar.weakAction, seed.ar.misconception],
+      answers: [seed.ar.groundedUse, seed.ar.verification],
+      explanation: "الجواب القوي يجمع بين اختيار مناسب للحاجة والتحقق من النتيجة.",
+      fr: {
+        prompt: multiPrompt.fr,
+        options: [seed.fr.groundedUse, seed.fr.verification, seed.fr.weakAction, seed.fr.misconception],
+        guidance: guidance.fr,
+        explanation: "Une réponse solide combine un choix adapté au besoin et une vérification du résultat.",
+      },
+    };
+  } else if (index % 3 === 1) {
+    const trapPrompt = {
+      beginner: {
+        ar: `أي تصرف قد يجعل استعمال ${seed.ar.topic} يعطي نتيجة مضللة؟`,
+        fr: `Quelle action peut rendre l'utilisation de ${seed.fr.topic} trompeuse ?`,
+      },
+      intermediate: {
+        ar: `ما التصرف الذي غالبا يضعف استعمال ${seed.ar.topic} في مشروع؟`,
+        fr: `Quelle action affaiblit souvent l'utilisation de ${seed.fr.topic} dans un projet ?`,
+      },
+      advanced: {
+        ar: `أي خطر تقني يجب الانتباه إليه قبل الاعتماد على ${seed.ar.topic}؟`,
+        fr: `Quel risque technique faut-il surveiller avant de s'appuyer sur ${seed.fr.topic} ?`,
+      },
+    }[seed.level];
+    thinkingQuestion = {
+      ...common,
+      id: `${baseId}-thinking-trap`,
+      type: "choice",
+      prompt: trapPrompt.ar,
+      options: [seed.ar.weakAction, seed.ar.groundedUse, seed.ar.verification, seed.ar.definition],
+      answer: seed.ar.weakAction,
+      explanation: `هذا التصرف يضعف النتيجة لأنه يتجاوز الفهم أو الاختبار. ${seed.ar.definition}`,
+      fr: {
+        prompt: trapPrompt.fr,
+        options: [seed.fr.weakAction, seed.fr.groundedUse, seed.fr.verification, seed.fr.definition],
+        guidance: guidance.fr,
+        explanation: `Cette action affaiblit le résultat car elle saute la compréhension ou le test. ${seed.fr.definition}`,
+      },
+    };
+  } else {
+    const statementIsCorrect = seed.level !== "advanced";
+    thinkingQuestion = {
+      ...common,
+      id: `${baseId}-thinking-tf`,
+      type: "boolean",
+      prompt: statementIsCorrect
+        ? `يصبح استعمال ${seed.ar.topic} مفيدا عندما يكون الهدف واضحا ونختبر النتيجة.`
+        : `نجاح ${seed.ar.topic} في حالة واحدة يكفي لاعتماده في كل الحالات الجديدة.`,
+      answer: statementIsCorrect,
+      explanation: statementIsCorrect
+        ? "العبارة صحيحة لأن وضوح الهدف والاختبار يمنعان الاستعمال العشوائي."
+        : "هذا غير كاف؛ في المستوى المتقدم نحتاج اختبارات على حالات متنوعة قبل التعميم.",
+      fr: {
+        prompt: statementIsCorrect
+          ? `${seed.fr.topic} peut être utile si on le relie à un objectif clair puis qu'on teste le résultat.`
+          : `La réussite de ${seed.fr.topic} sur un seul cas suffit pour l'adopter dans tous les nouveaux cas.`,
+        guidance: guidance.fr,
+        explanation: statementIsCorrect
+          ? "La phrase est correcte : objectif clair et test évitent l'utilisation au hasard."
+          : "Ce n'est pas suffisant ; à un niveau avancé, il faut tester plusieurs cas avant de généraliser.",
+      },
+    };
+  }
 
   const extraType = index % 4;
   let interactiveQuestion;
@@ -1578,21 +1767,22 @@ function buildGeneratedQuestions(rawSeed, index) {
       ...common,
       id: `${baseId}-match`,
       type: "match",
-      prompt: `طابق عناصر ${seed.ar.topic} مع معناها الأقرب.`,
+      prompt: `طابق كل عنصر حول ${seed.ar.topic} مع المعنى العملي الأقرب.`,
       pairs: [
-        { left: seed.ar.topic, right: seed.ar.definition },
-        { left: "حالة استعمال", right: seed.ar.useCase },
-        { left: "الفائدة الأساسية", right: seed.ar.benefit },
+        { left: "الحاجة", right: seed.ar.role },
+        { left: "قرار صحيح", right: seed.ar.groundedUse },
+        { left: "فخ شائع", right: seed.ar.weakAction },
       ],
-      explanation: `المطابقة الصحيحة تبدأ من فهم الدور، ثم حالة الاستعمال، ثم الفائدة العملية.`,
+      explanation: "المطابقة الجيدة تميز بين الحاجة، القرار المناسب، والفخ الذي يضعف النتيجة.",
       fr: {
-        prompt: `Associe les éléments de ${seed.fr.topic} à leur sens le plus proche.`,
+        prompt: `Associe chaque élément autour de ${seed.fr.topic} au sens pratique le plus proche.`,
         pairs: [
-          { left: seed.fr.topic, right: seed.fr.definition },
-          { left: "Cas d'utilisation", right: seed.fr.useCase },
-          { left: "Bénéfice principal", right: seed.fr.benefit },
+          { left: "Besoin", right: seed.fr.role },
+          { left: "Bonne décision", right: seed.fr.groundedUse },
+          { left: "Piège courant", right: seed.fr.weakAction },
         ],
-        explanation: "La bonne association commence par le rôle, puis le cas d'usage, puis le bénéfice pratique.",
+        guidance: guidance.fr,
+        explanation: "La bonne association distingue le besoin, la décision adaptée et le piège qui affaiblit le résultat.",
       },
     };
   } else if (extraType === 1) {
@@ -1600,14 +1790,15 @@ function buildGeneratedQuestions(rawSeed, index) {
       ...common,
       id: `${baseId}-order`,
       type: "order",
-      prompt: `رتب طريقة استعمال ${seed.ar.topic} في مشروع صغير.`,
+      prompt: `رتب طريقة التفكير قبل استعمال ${seed.ar.topic} في مشروع صغير.`,
       options: context.arWorkflow,
       correctOrder: context.arWorkflow,
-      explanation: "العمل المنظم يبدأ بفهم المطلوب ثم التطبيق ثم الاختبار.",
+      explanation: "العمل الجيد لا يبدأ بالأداة مباشرة؛ يبدأ بفهم المطلوب ثم التطبيق ثم الاختبار.",
       fr: {
-        prompt: `Mets dans l'ordre l'utilisation de ${seed.fr.topic} dans un petit projet.`,
+        prompt: `Mets dans l'ordre la réflexion avant d'utiliser ${seed.fr.topic} dans un petit projet.`,
         options: context.frWorkflow,
-        explanation: "Un travail organisé commence par le besoin, puis l'application, puis le test.",
+        guidance: guidance.fr,
+        explanation: "Un bon travail ne commence pas directement par l'outil ; il commence par le besoin, puis l'application et le test.",
       },
     };
   } else {
@@ -1615,21 +1806,917 @@ function buildGeneratedQuestions(rawSeed, index) {
       ...common,
       id: `${baseId}-multi`,
       type: "multi",
-      prompt: `اختر عبارتين صحيحتين حول ${seed.ar.topic}.`,
-      options: [seed.ar.definition, seed.ar.benefit, seed.ar.misconception, seed.ar.offTopic],
-      answers: [seed.ar.definition, seed.ar.benefit],
-      explanation: `العبارتان الصحيحتان هما التي تصف الدور والفائدة العملية.`,
+      prompt: `اختر عبارتين صحيحتين حول استعمال ${seed.ar.topic} بطريقة ذكية.`,
+      options: [seed.ar.groundedUse, seed.ar.verification, seed.ar.risk, seed.ar.misconception],
+      answers: [seed.ar.groundedUse, seed.ar.verification],
+      explanation: "الاستعمال الذكي يجمع بين مناسبة الأداة للحاجة والتحقق من النتيجة.",
       fr: {
-        prompt: `Choisis deux phrases correctes à propos de ${seed.fr.topic}.`,
-        options: [seed.fr.definition, seed.fr.benefit, seed.fr.misconception, seed.fr.offTopic],
-        explanation: "Les deux bonnes réponses décrivent le rôle et le bénéfice pratique.",
+        prompt: `Choisis deux phrases correctes sur l'utilisation intelligente de ${seed.fr.topic}.`,
+        options: [seed.fr.groundedUse, seed.fr.verification, seed.fr.risk, seed.fr.misconception],
+        guidance: guidance.fr,
+        explanation: "Une utilisation intelligente combine l'adaptation au besoin et la vérification du résultat.",
       },
     };
   }
 
-  return [definitionQuestion, useCaseQuestion, booleanQuestion, interactiveQuestion];
+  return [directQuestion, scenarioQuestion, thinkingQuestion, interactiveQuestion];
 }
 
 const generatedQuestionExpansion = questionExpansionSeeds.flatMap(buildGeneratedQuestions).slice(0, 400);
 
-export const questions = [...curatedQuestions, ...generatedQuestionExpansion];
+const studentQuestionOverrides = {
+  "b-ai-003": {
+    options: ["تطبيق يتعرف على الوجه في الصورة", "تطبيق يحفظ الصور دون تحليلها", "آلة حاسبة عادية", "موقع يعرض نصا ثابتا"],
+    guidance: "ابحث عن المثال الذي فيه فهم أو تعرف على نمط، وليس مجرد تشغيل عادي.",
+    fr: {
+      options: ["Une application qui reconnaît un visage dans une image", "Une application qui sauvegarde des photos sans les analyser", "Une calculatrice simple", "Un site qui affiche un texte fixe"],
+      guidance: "Cherche l'exemple qui comprend ou reconnaît un motif, pas une simple exécution.",
+    },
+  },
+  "b-ai-004": {
+    options: ["التعليمة أو الطلب الذي نكتبه للنموذج", "اسم الأداة المستعملة", "نتيجة النموذج النهائية", "نوع الملف الذي نحفظه"],
+    guidance: "فكر في الشيء الذي يكتبه المستخدم قبل أن يجيب النموذج.",
+    fr: {
+      options: ["La consigne ou la demande écrite au modèle", "Le nom de l'outil utilisé", "Le résultat final du modèle", "Le type de fichier enregistré"],
+      guidance: "Pense à ce que l'utilisateur écrit avant que le modèle réponde.",
+    },
+  },
+  "b-ai-006": {
+    options: ["بيانات", "واجهة جميلة فقط", "اسم تجاري للأداة", "زيادة سرعة الجهاز فقط"],
+    guidance: "النموذج يتعلم من أمثلة، لذلك ركز على مصدر الأمثلة.",
+    fr: {
+      options: ["Des données", "Une belle interface seulement", "Un nom commercial", "Augmenter seulement la vitesse de l'appareil"],
+      guidance: "Un modèle apprend à partir d'exemples ; pense à la source de ces exemples.",
+    },
+  },
+  "b-ai-010": {
+    options: ["الرؤية الحاسوبية", "معالجة النصوص", "تخزين الملفات", "تصميم الواجهات"],
+    guidance: "السؤال يتحدث عن الصور والفيديو، أي عن ما يراه الحاسوب.",
+    fr: {
+      options: ["La vision par ordinateur", "Le traitement de texte", "Le stockage de fichiers", "Le design d'interfaces"],
+      guidance: "La question parle d'images et de vidéos, donc de ce que l'ordinateur voit.",
+    },
+  },
+  "b-robot-002": {
+    options: ["حساس الموجات فوق الصوتية", "حساس الضوء فقط", "محرك تيار مستمر", "مصدر الطاقة"],
+    guidance: "قياس المسافة يحتاج قطعة تقرأ المحيط، وليس قطعة تحرك الروبوت.",
+    fr: {
+      options: ["Le capteur ultrason", "Un capteur de lumière seulement", "Un moteur à courant continu", "La source d'énergie"],
+      guidance: "Mesurer une distance demande un composant qui lit l'environnement, pas un composant qui déplace le robot.",
+    },
+  },
+  "b-cs-001": {
+    options: ["اسم نخزن فيه قيمة يمكن استعمالها لاحقا", "تعليمة تكرر الكود", "شرط يختار مسارا", "ملف يحفظ الصور"],
+    guidance: "المتغير يشبه خانة تحمل قيمة يمكن أن تتغير أثناء البرنامج.",
+    fr: {
+      options: ["Un nom qui stocke une valeur réutilisable", "Une instruction qui répète le code", "Une condition qui choisit un chemin", "Un fichier qui garde des images"],
+      guidance: "Une variable ressemble à une case qui contient une valeur pouvant changer.",
+    },
+  },
+  "b-cs-005": {
+    options: ["تنسيق الألوان والمسافات والشكل", "بناء هيكل الصفحة", "تبادل الطلبات مع الخادم", "حفظ البيانات في قاعدة"],
+    guidance: "CSS يهتم بالشكل، أما HTML فيبني الهيكل.",
+    fr: {
+      options: ["Mettre en forme les couleurs, espaces et styles", "Construire la structure de la page", "Échanger des requêtes avec le serveur", "Stocker les données dans une base"],
+      guidance: "CSS s'occupe de l'apparence, tandis que HTML construit la structure.",
+    },
+  },
+  "b-cs-007": {
+    options: ["Number", "String", "Loop", "Comment"],
+    answers: ["Number", "String"],
+    guidance: "نوع البيانات يصف شكل القيمة: هل هي عدد، نص، أو نوع آخر.",
+    fr: {
+      options: ["Number", "String", "Loop", "Comment"],
+      guidance: "Un type de données décrit la forme de la valeur : nombre, texte ou autre.",
+    },
+  },
+  "b-tech-002": {
+    options: ["إدارة العتاد والبرامج وتسهيل استعمال الحاسوب", "تشغيل تطبيق واحد فقط", "تغيير إعدادات الشبكة فقط", "حفظ الملفات فقط"],
+    guidance: "نظام التشغيل هو الوسيط الأساسي بين المستخدم والجهاز والبرامج.",
+    fr: {
+      options: ["Gérer le matériel, les programmes et faciliter l'utilisation", "Lancer une seule application", "Changer seulement les réglages réseau", "Stocker seulement les fichiers"],
+      guidance: "Le système d'exploitation relie l'utilisateur, l'appareil et les programmes.",
+    },
+  },
+  "b-tech-004": {
+    options: ["ربط أجهزة وشبكات حول العالم لتبادل المعلومات", "تشغيل جهاز واحد دون شبكة", "حفظ الملفات داخل الحاسوب فقط", "توصيل شاشة بالحاسوب"],
+    guidance: "الإنترنت شبكة كبيرة للتواصل وتبادل المعلومات.",
+    fr: {
+      options: ["Relier des appareils et réseaux pour échanger des informations", "Faire fonctionner un seul appareil sans réseau", "Garder des fichiers dans l'ordinateur seulement", "Brancher un écran à l'ordinateur"],
+      guidance: "Internet est un grand réseau de communication et d'échange d'informations.",
+    },
+  },
+  "i-ai-004": {
+    options: ["تلخيص مقال طويل", "اكتشاف كائن داخل صورة", "قياس سرعة الشبكة", "تحريك محرك روبوت"],
+    guidance: "معالجة اللغة الطبيعية تهتم بالنصوص والكلام.",
+    fr: {
+      options: ["Résumer un long article", "Détecter un objet dans une image", "Mesurer la vitesse du réseau", "Faire tourner un moteur de robot"],
+      guidance: "Le traitement du langage naturel concerne les textes et la parole.",
+    },
+  },
+  "i-ai-006": {
+    options: ["تكييف نموذج مدرب مسبقا على بيانات خاصة بمهمة محددة", "اختبار النموذج على بيانات جديدة فقط", "تنظيف البيانات قبل التدريب", "كتابة Prompt دون تدريب"],
+    guidance: "Fine-tuning يعني تعديل نموذج موجود ليتناسب مع مجال محدد.",
+    fr: {
+      options: ["Adapter un modèle déjà entraîné à des données d'une tâche précise", "Tester seulement le modèle sur de nouvelles données", "Nettoyer les données avant l'entraînement", "Écrire un prompt sans entraînement"],
+      guidance: "Le fine-tuning adapte un modèle existant à un domaine précis.",
+    },
+  },
+  "i-ai-007": {
+    options: ["بيانات لا يستعملها النموذج في التدريب وتستخدم لتقييمه", "بيانات يتدرب عليها النموذج مباشرة", "أسماء الفئات فقط", "نتائج النموذج بعد التدريب"],
+    guidance: "بيانات الاختبار تشبه امتحانا للنموذج بعد التعلم.",
+    fr: {
+      options: ["Des données non utilisées à l'entraînement et utilisées pour l'évaluation", "Des données utilisées directement pour entraîner le modèle", "Seulement les noms des classes", "Les résultats du modèle après entraînement"],
+      guidance: "Les données de test ressemblent à un examen après l'apprentissage.",
+    },
+  },
+  "i-ai-009": {
+    options: ["اسم الفئة الصحيحة للصورة", "حجم الصورة بالبكسل", "درجة ثقة النموذج فقط", "اسم ملف الصورة"],
+    guidance: "في التصنيف، Label هو الجواب الصحيح الذي نقارن به توقع النموذج.",
+    fr: {
+      options: ["Le nom de la bonne classe de l'image", "La taille de l'image en pixels", "Seulement le score de confiance du modèle", "Le nom du fichier image"],
+      guidance: "En classification, le label est la bonne réponse comparée à la prédiction.",
+    },
+  },
+  "i-robot-001": {
+    options: ["قراءة المدخلات وتنفيذ البرنامج للتحكم في المخرجات", "تخزين صور المشروع", "زيادة سرعة الإنترنت", "حماية الحسابات بكلمة مرور"],
+    guidance: "المتحكم هو عقل صغير يقرأ الحساسات ويعطي أوامر للمخرجات.",
+    fr: {
+      options: ["Lire les entrées et exécuter le programme pour contrôler les sorties", "Stocker les images du projet", "Augmenter la vitesse d'Internet", "Protéger les comptes par mot de passe"],
+      guidance: "Le microcontrôleur est un petit cerveau qui lit les capteurs et commande les sorties.",
+    },
+  },
+  "i-robot-005": {
+    options: ["لأن المحرك قد يحتاج تيارا أكبر من قدرة المنفذ", "لأن المحرك يحتاج دائما اتصالا بالإنترنت", "لأن الحساسات تمنع دوران المحرك", "لأن البرنامج لا يستطيع إرسال أوامر"],
+    guidance: "فكر في التيار الكهربائي: المحركات غالبا تحتاج طاقة أكبر من منفذ المتحكم.",
+    fr: {
+      options: ["Parce que le moteur peut demander un courant supérieur à la capacité de la broche", "Parce que le moteur a toujours besoin d'Internet", "Parce que les capteurs empêchent le moteur de tourner", "Parce que le programme ne peut pas envoyer d'ordres"],
+      guidance: "Pense au courant électrique : les moteurs demandent souvent plus d'énergie qu'une broche.",
+    },
+  },
+  "i-cs-005": {
+    options: ["ينظم تبادل الطلبات والردود بين المتصفح والخادم", "يرتب عناصر الصفحة بصريا", "يخزن البيانات داخل جدول", "ينفذ الخوارزمية داخل المعالج"],
+    guidance: "HTTP هو بروتوكول تواصل بين المتصفح والخادم.",
+    fr: {
+      options: ["Organiser l'échange de requêtes et réponses entre navigateur et serveur", "Organiser visuellement les éléments de la page", "Stocker les données dans une table", "Exécuter l'algorithme dans le processeur"],
+      guidance: "HTTP est un protocole de communication entre navigateur et serveur.",
+    },
+  },
+  "i-cs-001": {
+    prompt: "إذا بحثنا عن اسم داخل قائمة بفحص العناصر واحدا واحدا، كيف يكبر عدد الخطوات؟",
+    options: ["يزيد غالبا مع طول القائمة O(n)", "يبقى ثابتا دائما O(1)", "ينقص كلما كبرت القائمة", "يحتاج خطوة واحدة فقط مهما كان العدد"],
+    answer: "يزيد غالبا مع طول القائمة O(n)",
+    guidance: "لا تحتاج حفظ الرمز؛ الفكرة أن قائمة أطول تعني فحص عناصر أكثر.",
+    fr: {
+      prompt: "Si on cherche un nom dans une liste élément par élément, comment évolue le nombre d'étapes ?",
+      options: ["Il augmente souvent avec la taille de la liste O(n)", "Il reste toujours constant O(1)", "Il diminue quand la liste grandit", "Il demande toujours une seule étape"],
+      guidance: "Pas besoin de mémoriser le symbole ; une liste plus longue signifie plus d'éléments à vérifier.",
+    },
+  },
+  "i-cs-002": {
+    prompt: "أي بنية بيانات تشبه صف الانتظار: أول من يدخل هو أول من يخرج؟",
+    options: ["الطابور Queue", "المكدس Stack", "الشجرة Tree", "الرسم البياني Graph"],
+    answer: "الطابور Queue",
+    guidance: "تخيل صفا أمام باب: الأول في الصف يمر أولا.",
+    fr: {
+      prompt: "Quelle structure ressemble à une file d'attente : le premier arrivé sort le premier ?",
+      options: ["La file Queue", "La pile Stack", "L'arbre Tree", "Le graphe Graph"],
+      guidance: "Imagine une file devant une porte : le premier arrivé passe le premier.",
+    },
+  },
+  "i-cs-003": {
+    prompt: "أي بنية بيانات تشبه كومة كتب: آخر كتاب نضعه هو أول كتاب نأخذه؟",
+    options: ["المكدس Stack", "الطابور Queue", "القائمة Array", "الخريطة Map"],
+    answer: "المكدس Stack",
+    guidance: "في كومة الكتب، نأخذ عادة الكتاب الموجود في الأعلى أولا.",
+    fr: {
+      prompt: "Quelle structure ressemble à une pile de livres : le dernier posé est le premier retiré ?",
+      options: ["La pile Stack", "La file Queue", "Le tableau Array", "La table Map"],
+      guidance: "Dans une pile de livres, on prend d'abord celui qui est au-dessus.",
+    },
+  },
+  "i-cs-008": {
+    options: ["واجهة تسمح لبرامج مختلفة بالتواصل وفق قواعد محددة", "صفحة ويب تعرض معلومات فقط", "قاعدة بيانات داخل الحاسوب", "ملف إعدادات محلي"],
+    guidance: "API مثل عقد واضح يحدد كيف يطلب برنامج خدمة من برنامج آخر.",
+    fr: {
+      options: ["Une interface permettant à différents programmes de communiquer selon des règles", "Une page web qui affiche seulement des informations", "Une base de données dans l'ordinateur", "Un fichier de configuration local"],
+      guidance: "Une API est comme un contrat clair entre programmes.",
+    },
+  },
+  "i-tech-001": {
+    options: ["خداع المستخدم للحصول على معلوماته الحساسة", "استعمال كلمة مرور قوية", "تشفير الاتصال بالموقع", "تحديث النظام لإصلاح الثغرات"],
+    guidance: "التصيد يعتمد على الخداع، وليس على كسر الجهاز مباشرة.",
+    fr: {
+      options: ["Tromper l'utilisateur pour obtenir ses informations sensibles", "Utiliser un mot de passe fort", "Chiffrer la connexion au site", "Mettre à jour le système pour corriger des failles"],
+      guidance: "Le phishing repose sur la tromperie, pas sur la casse directe de l'appareil.",
+    },
+  },
+  "i-tech-002": {
+    options: ["تحويل أسماء المواقع إلى عناوين IP", "تشفير كلمات المرور داخل المتصفح", "تخزين صفحات الموقع", "منع كل الاتصالات الخارجية"],
+    guidance: "DNS يجعل الاسم السهل يتحول إلى عنوان تفهمه الشبكة.",
+    fr: {
+      options: ["Transformer les noms de sites en adresses IP", "Chiffrer les mots de passe dans le navigateur", "Stocker les pages du site", "Bloquer toutes les connexions externes"],
+      guidance: "Le DNS transforme un nom lisible en adresse compréhensible par le réseau.",
+    },
+  },
+  "i-tech-004": {
+    options: ["تخزين ملفات على الإنترنت", "تشغيل تطبيقات على خوادم بعيدة", "حفظ ملف في مفتاح USB", "تشغيل برنامج دون اتصال"],
+    answers: ["تخزين ملفات على الإنترنت", "تشغيل تطبيقات على خوادم بعيدة"],
+    guidance: "الخدمة السحابية تكون غالبا عبر الإنترنت وعلى خوادم بعيدة.",
+    fr: {
+      options: ["Stocker des fichiers en ligne", "Exécuter des applications sur des serveurs distants", "Enregistrer un fichier sur une clé USB", "Lancer un programme sans connexion"],
+      guidance: "Un service cloud fonctionne souvent via Internet et des serveurs distants.",
+    },
+  },
+  "i-tech-005": {
+    options: ["استعمال عامل تحقق إضافي بجانب كلمة المرور", "استعمال كلمتي مرور متشابهتين", "فتح حسابين بنفس البريد", "إلغاء كلمة المرور نهائيا"],
+    guidance: "2FA يعني خطوة ثانية للتأكد من هوية المستخدم.",
+    fr: {
+      options: ["Utiliser un facteur de vérification en plus du mot de passe", "Utiliser deux mots de passe similaires", "Créer deux comptes avec le même email", "Supprimer totalement le mot de passe"],
+      guidance: "La 2FA ajoute une deuxième étape pour vérifier l'identité.",
+    },
+  },
+  "i-tech-007": {
+    options: ["عنوان رقمي يميز جهازا أو خدمة داخل شبكة", "اسم نطاق سهل الحفظ", "كلمة مرور للاتصال", "رقم نسخة نظام التشغيل"],
+    guidance: "عنوان IP يساعد الأجهزة على إيجاد بعضها داخل الشبكات.",
+    fr: {
+      options: ["Une adresse numérique qui identifie un appareil ou service dans un réseau", "Un nom de domaine facile à retenir", "Un mot de passe de connexion", "Le numéro de version du système"],
+      guidance: "Une adresse IP aide les appareils à se retrouver sur les réseaux.",
+    },
+  },
+  "i-tech-008": {
+    options: ["برمجيات يمكن الاطلاع على كودها وغالبا تعديلها وفق رخصتها", "برمجيات تعمل فقط دون إنترنت", "برمجيات لا يمكن تحديثها", "برمجيات تخفي طريقة عملها دائما"],
+    guidance: "ركز على إتاحة الكود وشروط الرخصة.",
+    fr: {
+      options: ["Des logiciels dont le code peut être consulté et souvent modifié selon la licence", "Des logiciels qui fonctionnent seulement sans Internet", "Des logiciels impossibles à mettre à jour", "Des logiciels qui cachent toujours leur fonctionnement"],
+      guidance: "Concentre-toi sur l'accès au code et les conditions de licence.",
+    },
+  },
+  "a-ai-001": {
+    prompt: "في نموذج لغوي مثل ChatGPT، ماذا تعني نافذة السياق Context Window؟",
+    options: ["كمية النص التي يستطيع النموذج قراءتها في طلب أو محادثة واحدة", "عدد الإجابات التي يعطيها في الدقيقة", "حجم قاعدة البيانات التي تدرب عليها", "نوع الجهاز الذي يستعمله المستخدم"],
+    answer: "كمية النص التي يستطيع النموذج قراءتها في طلب أو محادثة واحدة",
+    guidance: "فكر في مقدار الكلام أو الوثائق التي يمكن للنموذج أن يأخذها معه في نفس اللحظة.",
+    fr: {
+      prompt: "Dans un modèle comme ChatGPT, que signifie la fenêtre de contexte ?",
+      options: ["La quantité de texte que le modèle peut lire dans une demande ou conversation", "Le nombre de réponses par minute", "La taille de la base utilisée pour l'entraînement", "Le type d'appareil utilisé"],
+      guidance: "Pense à la quantité de texte ou de documents que le modèle peut prendre en compte à la fois.",
+    },
+  },
+  "a-ai-002": {
+    prompt: "لماذا نستعمل تقنيات تقلل فرط التكيف في التعلم الآلي؟",
+    options: ["كي لا يحفظ النموذج أمثلة التدريب فقط ويستطيع التعامل مع أمثلة جديدة", "كي نحذف بيانات الاختبار", "كي نزيد عدد الأخطاء عمدا", "كي نمنع النموذج من التعلم"],
+    answer: "كي لا يحفظ النموذج أمثلة التدريب فقط ويستطيع التعامل مع أمثلة جديدة",
+    guidance: "المهم هو أن يتعلم النموذج الفكرة العامة لا أن يحفظ الأمثلة فقط.",
+    fr: {
+      prompt: "Pourquoi utilise-t-on des techniques qui réduisent le surapprentissage ?",
+      options: ["Pour éviter que le modèle mémorise seulement l'entraînement et pour mieux généraliser", "Pour supprimer les données de test", "Pour augmenter volontairement les erreurs", "Pour empêcher le modèle d'apprendre"],
+      guidance: "L'objectif est que le modèle comprenne la règle générale, pas seulement les exemples.",
+    },
+  },
+  "a-ai-004": {
+    options: ["الدقة في الأجوبة الإيجابية Precision", "القدرة على العثور على الحالات الصحيحة Recall", "لون الواجهة", "حجم الخط"],
+    answers: ["الدقة في الأجوبة الإيجابية Precision", "القدرة على العثور على الحالات الصحيحة Recall"],
+    guidance: "هنا نقيس جودة التصنيف، لا شكل التطبيق.",
+    fr: {
+      options: ["La précision des réponses positives", "La capacité à retrouver les bons cas", "La couleur de l'interface", "La taille de police"],
+      guidance: "On mesure ici la qualité de la classification, pas l'apparence.",
+    },
+  },
+  "a-ai-005": {
+    prompt: "ما الفكرة العامة وراء ربط نموذج الذكاء الاصطناعي بمصادر موثوقة قبل الجواب؟",
+    options: ["جلب معلومات من مصادر خارجية ثم استعمالها لتوليد جواب أدق", "الاعتماد على ذاكرة النموذج فقط", "منع النموذج من قراءة أي مصدر", "اختيار جواب عشوائي عند الشك"],
+    answer: "جلب معلومات من مصادر خارجية ثم استعمالها لتوليد جواب أدق",
+    guidance: "الفكرة هي تقليل التخمين باستعمال مصدر واضح يمكن الرجوع إليه.",
+    fr: {
+      prompt: "Quelle est l'idée générale de relier un modèle d'IA à des sources fiables avant la réponse ?",
+      options: ["Récupérer des informations externes puis les utiliser pour répondre plus précisément", "Se baser seulement sur la mémoire du modèle", "Empêcher le modèle de lire toute source", "Choisir une réponse au hasard en cas de doute"],
+      guidance: "L'idée est de réduire les suppositions grâce à une source vérifiable.",
+    },
+  },
+  "a-ai-006": {
+    prompt: "رتب مسار نظام بسيط يجعل الذكاء الاصطناعي يستعين بوثائق موثوقة قبل الجواب.",
+    options: ["تقسيم الوثائق إلى مقاطع", "تحويل المقاطع إلى تمثيلات رقمية للمعنى", "استرجاع المقاطع المناسبة للسؤال", "توليد الجواب باستعمال السياق"],
+    correctOrder: ["تقسيم الوثائق إلى مقاطع", "تحويل المقاطع إلى تمثيلات رقمية للمعنى", "استرجاع المقاطع المناسبة للسؤال", "توليد الجواب باستعمال السياق"],
+    guidance: "السؤال لا يطلب حفظ كلمة RAG؛ ركز على ترتيب العمل: تجهيز الوثائق ثم البحث ثم الجواب.",
+    fr: {
+      prompt: "Mets dans l'ordre un système simple où l'IA utilise des documents fiables avant de répondre.",
+      options: ["Découper les documents en passages", "Transformer les passages en représentations numériques du sens", "Récupérer les passages utiles à la question", "Générer la réponse avec le contexte"],
+      guidance: "La question ne demande pas de mémoriser RAG ; pense à préparer, chercher, puis répondre.",
+    },
+  },
+  "a-ai-007": {
+    prompt: "ما المقصود بتمثيل المعنى بالأرقام Embedding؟",
+    options: ["تحويل نص أو صورة إلى أرقام تساعد على مقارنة المعاني", "حفظ النص كما هو دون تحليل", "تشفير كلمة المرور فقط", "ضغط الصورة لتصغير حجمها"],
+    answer: "تحويل نص أو صورة إلى أرقام تساعد على مقارنة المعاني",
+    guidance: "تخيل أن الحاسوب يعطي لكل معنى إحداثيات تساعده على المقارنة.",
+    fr: {
+      prompt: "Que signifie représenter le sens par des nombres, embedding ?",
+      options: ["Transformer un texte ou une image en nombres pour comparer les sens", "Garder le texte tel quel sans analyse", "Chiffrer seulement un mot de passe", "Compresser une image pour réduire sa taille"],
+      guidance: "Imagine que l'ordinateur donne au sens des coordonnées pour le comparer.",
+    },
+  },
+  "a-ai-008": {
+    prompt: "لماذا نعطي النموذج أمثلة قليلة داخل الطلب؟",
+    options: ["لنوضح له شكل الإجابة والمنطق المطلوب", "لنخفي عنه الهدف", "لنجعله يجيب بلا سياق", "لنمنعه من استعمال التعليمات"],
+    answer: "لنوضح له شكل الإجابة والمنطق المطلوب",
+    guidance: "الأمثلة هنا مثل نموذج صغير لما ننتظره من الجواب.",
+    fr: {
+      prompt: "Pourquoi donne-t-on quelques exemples au modèle dans la consigne ?",
+      options: ["Pour lui montrer le format et le raisonnement attendus", "Pour cacher l'objectif", "Pour le faire répondre sans contexte", "Pour l'empêcher d'utiliser la consigne"],
+      guidance: "Les exemples servent de petit modèle de la réponse attendue.",
+    },
+  },
+  "a-ai-009": {
+    prompt: "طابق كل فكرة في تقييم نموذج ذكاء اصطناعي مع معناها العملي.",
+    pairs: [
+      { left: "حفظ التدريب بدل الفهم العام", right: "يفشل النموذج مع أمثلة جديدة" },
+      { left: "استعمال النموذج بعد تدريبه", right: "إنتاج نتيجة أو توقع" },
+      { left: "تقسيم البيانات", right: "جزء للتعلم وجزء للتقييم" },
+    ],
+    guidance: "المهم هنا هو فهم أثر كل فكرة، وليس حفظ الاسم الإنجليزي.",
+    fr: {
+      prompt: "Associe chaque idée d'évaluation d'un modèle IA à son sens pratique.",
+      pairs: [
+        { left: "Mémoriser l'entraînement au lieu de généraliser", right: "Le modèle échoue sur de nouveaux exemples" },
+        { left: "Utiliser le modèle après l'entraînement", right: "Produire un résultat ou une prédiction" },
+        { left: "Diviser les données", right: "Une partie pour apprendre et une partie pour évaluer" },
+      ],
+      guidance: "L'important est de comprendre l'effet de chaque idée, pas de mémoriser le terme anglais.",
+    },
+  },
+  "a-robot-001": {
+    prompt: "ما دور متحكم PID بشكل مبسط؟",
+    options: ["تقليل الفرق بين الهدف والقياس بتصحيح الحركة تدريجيا", "تشغيل المحرك دائما بأقصى سرعة", "إلغاء الحاجة إلى الحساسات", "تغيير برنامج الروبوت عشوائيا"],
+    answer: "تقليل الفرق بين الهدف والقياس بتصحيح الحركة تدريجيا",
+    guidance: "PID ليس للحفظ؛ فكر فيه كطريقة لتقليل الخطأ خطوة بعد خطوة.",
+    fr: {
+      prompt: "Quel est le rôle d'un contrôleur PID de façon simple ?",
+      options: ["Réduire l'écart entre la cible et la mesure en corrigeant progressivement", "Faire tourner le moteur toujours à vitesse maximale", "Supprimer le besoin de capteurs", "Changer le programme du robot au hasard"],
+      guidance: "Ne mémorise pas PID ; pense à une méthode pour réduire l'erreur progressivement.",
+    },
+  },
+  "a-robot-002": {
+    prompt: "ما المقصود بدمج قراءات عدة حساسات؟",
+    options: ["استعمال أكثر من حساس للحصول على تقدير أدق للحالة", "الاعتماد على حساس واحد مهما كانت الظروف", "إيقاف كل الحساسات عند الحركة", "توصيل الحساسات دون قراءة بياناتها"],
+    answer: "استعمال أكثر من حساس للحصول على تقدير أدق للحالة",
+    guidance: "حساس واحد قد يخطئ؛ دمج قراءات متعددة يعطي صورة أفضل.",
+    fr: {
+      prompt: "Que signifie combiner les mesures de plusieurs capteurs ?",
+      options: ["Utiliser plusieurs capteurs pour obtenir une estimation plus précise", "Se baser sur un seul capteur quelles que soient les conditions", "Arrêter tous les capteurs pendant le mouvement", "Brancher les capteurs sans lire leurs données"],
+      guidance: "Un seul capteur peut se tromper ; plusieurs mesures donnent une meilleure image.",
+    },
+  },
+  "a-robot-004": {
+    options: ["استهلاك الطاقة", "ثبات الحركة", "شكل الزينة الخارجية", "اسم ملف البرنامج"],
+    answers: ["استهلاك الطاقة", "ثبات الحركة"],
+    guidance: "في روبوت متنقل، الطاقة والحركة تؤثران مباشرة على الأداء.",
+    fr: {
+      options: ["La consommation d'énergie", "La stabilité du mouvement", "La décoration extérieure", "Le nom du fichier programme"],
+      guidance: "Dans un robot mobile, l'énergie et le mouvement influencent directement la performance.",
+    },
+  },
+  "a-robot-007": {
+    options: ["تحتاج معالجة بيانات كثيرة وتتأثر بالإضاءة", "تعطي دائما قياسات مثالية", "تغني عن كل الحساسات الأخرى دائما", "لا تحتاج أي اختبار في البيئة الحقيقية"],
+    guidance: "الكاميرا قوية، لكنها حساسة للضوء وتحتاج معالجة.",
+    fr: {
+      options: ["Elle demande beaucoup de traitement et dépend de l'éclairage", "Elle donne toujours des mesures parfaites", "Elle remplace toujours tous les autres capteurs", "Elle ne demande aucun test réel"],
+      guidance: "La caméra est puissante, mais elle dépend de la lumière et du traitement.",
+    },
+  },
+  "a-robot-008": {
+    prompt: "طابق كل فكرة روبوتية مع استعمالها العملي.",
+    pairs: [
+      { left: "تصحيح الخطأ تدريجيا", right: "تحكم أدق في الحركة" },
+      { left: "رسم خريطة مع معرفة الموقع", right: "تنقل روبوت في مكان غير معروف" },
+      { left: "قياس التسارع والدوران", right: "فهم حركة الروبوت واتجاهه" },
+    ],
+    guidance: "الهدف هو ربط المفهوم بالاستعمال داخل روبوت حقيقي.",
+    fr: {
+      prompt: "Associe chaque idée robotique à son usage pratique.",
+      pairs: [
+        { left: "Corriger progressivement l'erreur", right: "Contrôler le mouvement avec plus de précision" },
+        { left: "Cartographier tout en connaissant la position", right: "Déplacer un robot dans un lieu inconnu" },
+        { left: "Mesurer l'accélération et la rotation", right: "Comprendre le mouvement et l'orientation du robot" },
+      ],
+      guidance: "Le but est de relier le concept à son usage dans un vrai robot.",
+    },
+  },
+  "a-cs-001": {
+    prompt: "في البحث الثنائي داخل قائمة مرتبة، لماذا يكون أسرع من البحث العادي غالبا؟",
+    options: ["لأنه يقسم مجال البحث إلى نصفين في كل خطوة O(log n)", "لأنه يفحص كل عنصر واحدا واحدا", "لأنه يعمل فقط مع القوائم غير المرتبة", "لأنه لا يحتاج مقارنة أبدا"],
+    answer: "لأنه يقسم مجال البحث إلى نصفين في كل خطوة O(log n)",
+    guidance: "تخيل أنك تبحث في قاموس مرتب: كل مرة تلغي نصف الصفحات تقريبا.",
+    fr: {
+      prompt: "Pourquoi la recherche binaire dans une liste triée est-elle souvent plus rapide qu'une recherche simple ?",
+      options: ["Parce qu'elle divise la zone de recherche par deux à chaque étape O(log n)", "Parce qu'elle vérifie chaque élément un par un", "Parce qu'elle fonctionne seulement sur des listes non triées", "Parce qu'elle ne compare jamais"],
+      guidance: "Imagine chercher dans un dictionnaire trié : à chaque étape tu élimines presque la moitié.",
+    },
+  },
+  "a-cs-002": {
+    options: ["رسم بياني Graph", "مكدس Stack فقط", "نص String", "قيمة صحيحة أو خاطئة Boolean"],
+    answer: "رسم بياني Graph",
+    guidance: "المدن والطرق فيها عناصر وروابط، وهذا هو جوهر الرسم البياني.",
+    fr: {
+      options: ["Un graphe Graph", "Une pile Stack seulement", "Un texte String", "Une valeur vrai/faux Boolean"],
+      guidance: "Des villes et des routes forment des éléments et des liens : c'est l'idée d'un graphe.",
+    },
+  },
+  "a-cs-005": {
+    prompt: "ما الفكرة الأساسية في الاستدعاء الذاتي Recursion؟",
+    options: ["دالة تستعمل نفسها لحل أجزاء أصغر مع وجود حالة توقف", "دالة تعمل بلا نهاية دائما", "حذف كل الدوال من البرنامج", "استعمال متغير واحد فقط في كل حل"],
+    answer: "دالة تستعمل نفسها لحل أجزاء أصغر مع وجود حالة توقف",
+    guidance: "الاستدعاء الذاتي يحتاج دائما حالة توقف حتى لا يستمر بلا نهاية.",
+    fr: {
+      prompt: "Quelle est l'idée principale de la récursion ?",
+      options: ["Une fonction qui s'utilise elle-même pour résoudre des parties plus petites avec un arrêt", "Une fonction qui tourne toujours sans fin", "Supprimer toutes les fonctions", "Utiliser une seule variable dans toute solution"],
+      guidance: "La récursion a toujours besoin d'une condition d'arrêt.",
+    },
+  },
+  "a-cs-004": {
+    prompt: "اختر فكرتين من البرمجة الكائنية OOP.",
+    options: ["إخفاء تفاصيل داخل الكائن Encapsulation", "وراثة خصائص من كائن عام Inheritance", "إرسال طلب HTTP", "ترتيب عناصر الصفحة بـ CSS"],
+    answers: ["إخفاء تفاصيل داخل الكائن Encapsulation", "وراثة خصائص من كائن عام Inheritance"],
+    guidance: "البرمجة الكائنية تنظم البرنامج حول كائنات لها خصائص وسلوك.",
+    fr: {
+      prompt: "Choisis deux idées de la programmation orientée objet OOP.",
+      options: ["Cacher des détails dans l'objet Encapsulation", "Hériter de propriétés d'un objet général Inheritance", "Envoyer une requête HTTP", "Organiser la page avec CSS"],
+      guidance: "La programmation orientée objet organise le programme autour d'objets avec propriétés et comportements.",
+    },
+  },
+  "a-cs-006": {
+    prompt: "رتب خطوات حل مسألة بتجنب إعادة حساب نفس النتائج.",
+    options: ["تحديد الحالات", "صياغة الانتقال", "تحديد القيم الابتدائية", "حساب النتيجة"],
+    correctOrder: ["تحديد الحالات", "صياغة الانتقال", "تحديد القيم الابتدائية", "حساب النتيجة"],
+    guidance: "هذه هي فكرة البرمجة الديناميكية، لكن السؤال يركز على المنطق لا المصطلح.",
+    fr: {
+      prompt: "Mets dans l'ordre les étapes pour éviter de recalculer les mêmes résultats.",
+      options: ["Définir les états", "Formuler la transition", "Définir les valeurs initiales", "Calculer le résultat"],
+      guidance: "C'est l'idée de la programmation dynamique, mais la question vise surtout la logique.",
+    },
+  },
+  "a-cs-007": {
+    options: ["لتتبع التغييرات والتعاون والرجوع للإصدارات السابقة", "لتنفيذ الكود داخل المتصفح", "لتخزين قاعدة البيانات مباشرة", "لتصميم شكل الصفحة"],
+    guidance: "Git يحفظ تاريخ المشروع ويسهل التعاون.",
+    fr: {
+      options: ["Suivre les changements, collaborer et revenir à d'anciennes versions", "Exécuter le code dans le navigateur", "Stocker directement la base de données", "Concevoir l'apparence de la page"],
+      guidance: "Git garde l'historique du projet et facilite la collaboration.",
+    },
+  },
+  "a-cs-008": {
+    prompt: "طابق كل بنية بيانات مع الخاصية التي تميزها.",
+    pairs: [
+      { left: "جدول بالمفاتيح Hash Map", right: "وصول سريع إلى قيمة عبر مفتاح غالبا" },
+      { left: "شجرة Tree", right: "تنظيم هرمي مثل مجلدات داخل مجلدات" },
+      { left: "طابور Queue", right: "أول داخل هو أول خارج" },
+    ],
+    guidance: "اختيار بنية البيانات يشبه اختيار طريقة التنظيم المناسبة للمعلومات.",
+    fr: {
+      prompt: "Associe chaque structure de données à sa propriété principale.",
+      pairs: [
+        { left: "Table par clés Hash Map", right: "Accès rapide à une valeur par clé en général" },
+        { left: "Arbre Tree", right: "Organisation hiérarchique comme des dossiers" },
+        { left: "File Queue", right: "Premier entré, premier sorti" },
+      ],
+      guidance: "Choisir une structure de données revient à choisir la bonne organisation des informations.",
+    },
+  },
+  "a-tech-002": {
+    options: ["يوفر تشفيرا وتحققا أفضل أثناء الاتصال", "يسرع الموقع دائما مهما كان الخادم", "يحذف الحاجة إلى كلمة المرور", "يمنع كل أخطاء المواقع"],
+    guidance: "HTTPS يحمي الاتصال، لكنه لا يجعل الموقع مثاليا في كل شيء.",
+    fr: {
+      options: ["Il offre un meilleur chiffrement et une meilleure vérification pendant la connexion", "Il accélère toujours le site quel que soit le serveur", "Il supprime le besoin de mot de passe", "Il empêche toutes les erreurs de site"],
+      guidance: "HTTPS protège la connexion, mais ne rend pas le site parfait en tout.",
+    },
+  },
+  "a-tech-005": {
+    prompt: "ما المقصود بتشغيل تطبيق داخل حاوية Container؟",
+    options: ["تشغيل التطبيق مع ملفاته واعتمادياته في بيئة معزولة نسبيا", "حفظ التطبيق في ملف مضغوط فقط", "تشغيل التطبيق دون نظام تشغيل أبدا", "منع التطبيق من استعمال أي مكتبة"],
+    answer: "تشغيل التطبيق مع ملفاته واعتمادياته في بيئة معزولة نسبيا",
+    guidance: "الحاوية تساعد التطبيق يشتغل بنفس الطريقة تقريبا في أكثر من جهاز.",
+    fr: {
+      prompt: "Que signifie exécuter une application dans un conteneur ?",
+      options: ["Exécuter l'application avec ses fichiers et dépendances dans un environnement isolé", "Mettre l'application seulement dans un fichier compressé", "Lancer l'application sans aucun système d'exploitation", "Empêcher l'application d'utiliser toute bibliothèque"],
+      guidance: "Un conteneur aide l'application à fonctionner de façon similaire sur plusieurs machines.",
+    },
+  },
+  "a-tech-007": {
+    prompt: "ما وظيفة موزع الحمل Load Balancer في خدمة عليها عدد كبير من الطلبات؟",
+    options: ["توزيع الطلبات على عدة خوادم لتحسين الاعتمادية والأداء", "إرسال كل الطلبات إلى خادم واحد دائما", "حذف الطلبات عندما يكثر عددها", "تغيير شكل الصفحة عند الضغط"],
+    answer: "توزيع الطلبات على عدة خوادم لتحسين الاعتمادية والأداء",
+    guidance: "تخيل عدة أبواب تستقبل الزوار بدل باب واحد مزدحم.",
+    fr: {
+      prompt: "Quel est le rôle d'un répartiteur de charge quand un service reçoit beaucoup de demandes ?",
+      options: ["Répartir les demandes sur plusieurs serveurs pour améliorer fiabilité et performance", "Envoyer toutes les demandes à un seul serveur", "Supprimer les demandes quand elles sont nombreuses", "Changer l'apparence de la page au clic"],
+      guidance: "Imagine plusieurs portes qui accueillent les visiteurs au lieu d'une seule porte saturée.",
+    },
+  },
+  "a-tech-008": {
+    prompt: "طابق كل مفهوم أمني أو تقني مع معناه الأقرب.",
+    pairs: [
+      { left: "جدار الحماية Firewall", right: "فلترة حركة الشبكة حسب قواعد" },
+      { left: "تأمين الاتصال TLS", right: "حماية البيانات أثناء انتقالها" },
+      { left: "نسخة احتياطية Backup", right: "نسخة قابلة للاسترجاع عند ضياع البيانات" },
+    ],
+    guidance: "هذه مفاهيم مهمة في حماية الخدمات، والمطلوب هو فهم الدور العملي لكل واحد.",
+    fr: {
+      prompt: "Associe chaque concept technique ou de sécurité à son sens le plus proche.",
+      pairs: [
+        { left: "Pare-feu Firewall", right: "Filtrer le trafic réseau selon des règles" },
+        { left: "Connexion sécurisée TLS", right: "Protéger les données pendant leur transfert" },
+        { left: "Sauvegarde Backup", right: "Une copie récupérable en cas de perte" },
+      ],
+      guidance: "Ces concepts servent à protéger les services ; l'objectif est de comprendre leur rôle pratique.",
+    },
+  },
+  "b-ai-005": {
+    prompt: "اختر أداتين يمكن استعمالهما لتوليد محتوى باستعمال الذكاء الاصطناعي.",
+    options: ["ChatGPT", "DALL-E", "محرر نصوص عادي", "برنامج ضغط الملفات"],
+    answers: ["ChatGPT", "DALL-E"],
+    guidance: "ركز على الأداة التي تنشئ نصا أو صورة جديدة انطلاقا من طلب المستخدم.",
+    fr: {
+      prompt: "Choisis deux outils qui peuvent générer du contenu avec l'intelligence artificielle.",
+      options: ["ChatGPT", "DALL-E", "Un éditeur de texte simple", "Un logiciel de compression"],
+      guidance: "Cherche l'outil qui crée un texte ou une image à partir d'une demande.",
+    },
+  },
+  "b-ai-009": {
+    options: [
+      "اشرح لي الفرق بين الذكاء الاصطناعي (AI) والتعلم الآلي (ML) في 5 نقاط مع مثال بسيط",
+      "اشرح الذكاء الاصطناعي دون تحديد المستوى أو شكل الجواب",
+      "اعطني معلومات كثيرة دون ترتيب واضح",
+      "اكتب جوابا قصيرا دون مثال",
+    ],
+    answer: "اشرح لي الفرق بين الذكاء الاصطناعي (AI) والتعلم الآلي (ML) في 5 نقاط مع مثال بسيط",
+    guidance: "الطلب الجيد يحدد الموضوع، شكل الجواب، ومستوى الشرح المطلوب.",
+    fr: {
+      options: [
+        "Explique la différence entre l'intelligence artificielle (AI) et l'apprentissage automatique (ML) en 5 points avec un exemple simple",
+        "Explique l'intelligence artificielle sans préciser le niveau ni la forme",
+        "Donne beaucoup d'informations sans ordre clair",
+        "Écris une réponse courte sans exemple",
+      ],
+      guidance: "Une bonne consigne précise le sujet, la forme et le niveau de réponse.",
+    },
+  },
+  "b-robot-001": {
+    options: [
+      "آلة يمكنها تنفيذ مهام معينة باستعمال حساسات وبرمجة",
+      "آلة تنفذ حركة ثابتة فقط دون قراءة المحيط",
+      "برنامج داخل الهاتف لا يتحكم في أي قطعة",
+      "جهاز إلكتروني لا يتفاعل مع محيطه",
+    ],
+    guidance: "الروبوت يجمع بين الإحساس بالمحيط وتنفيذ أوامر مبرمجة.",
+    fr: {
+      options: [
+        "Une machine qui exécute des tâches avec des capteurs et un programme",
+        "Une machine qui répète seulement un mouvement fixe sans lire l'environnement",
+        "Un programme dans le téléphone qui ne contrôle aucun composant",
+        "Un appareil électronique qui ne réagit pas à son environnement",
+      ],
+      guidance: "Un robot combine la perception de l'environnement et l'exécution d'ordres programmés.",
+    },
+  },
+  "b-robot-005": {
+    prompt: "في روبوت صغير يتحرك ويتفادى عائقا، اختر مكونين يساعدانه مباشرة على الإحساس والحركة.",
+    options: ["حساس مسافة", "محرك", "لون الهيكل", "اسم المشروع"],
+    answers: ["حساس مسافة", "محرك"],
+    guidance: "في هذا المثال نحتاج قطعة تقيس المحيط وقطعة تنفذ الحركة.",
+    fr: {
+      prompt: "Dans un petit robot qui bouge et évite un obstacle, choisis deux composants liés directement à la perception et au mouvement.",
+      options: ["Un capteur de distance", "Un moteur", "La couleur du châssis", "Le nom du projet"],
+      guidance: "Dans cet exemple, il faut un composant qui mesure l'environnement et un autre qui produit le mouvement.",
+    },
+  },
+  "b-cs-002": {
+    options: ["حلقة (Loop)", "شرط (Condition)", "متغير (Variable)", "تعليق برمجي (Comment)"],
+    answer: "حلقة (Loop)",
+    guidance: "عندما نريد تكرار تعليمات، نبحث عن البنية التي تعبر عن التكرار.",
+    fr: {
+      options: ["Une boucle (Loop)", "Une condition", "Une variable", "Un commentaire"],
+      guidance: "Quand on veut répéter des instructions, on cherche la structure de répétition.",
+    },
+  },
+  "b-cs-006": {
+    options: ["جافاسكريبت (JavaScript)", "هيكلة الصفحات (HTML)", "تنسيق الصفحات (CSS)", "صيغة تبادل البيانات (JSON)"],
+    answer: "جافاسكريبت (JavaScript)",
+    guidance: "التفاعل يعني أن الصفحة تستجيب لأفعال المستخدم مثل النقر أو الكتابة.",
+    fr: {
+      options: ["JavaScript", "HTML pour structurer la page", "CSS pour la mise en forme", "JSON pour échanger des données"],
+      guidance: "L'interaction signifie que la page réagit aux actions de l'utilisateur.",
+    },
+  },
+  "b-tech-005": {
+    options: [
+      "عدم فتحه والتحقق من مصدره",
+      "فتحه بسرعة إذا كان العنوان يبدو مألوفا",
+      "إدخال كلمة المرور للتأكد من صحة الرابط",
+      "مشاركة الرابط مع الآخرين قبل التحقق",
+    ],
+    guidance: "الرابط المشبوه قد يستعمل للتصيد؛ السلامة تبدأ بالتوقف والتحقق.",
+    fr: {
+      options: [
+        "Ne pas l'ouvrir et vérifier sa source",
+        "L'ouvrir vite si l'adresse semble familière",
+        "Saisir le mot de passe pour vérifier le lien",
+        "Partager le lien avant de le vérifier",
+      ],
+      guidance: "Un lien suspect peut servir au phishing ; la sécurité commence par l'arrêt et la vérification.",
+    },
+  },
+  "i-robot-001": {
+    prompt: "ما وظيفة المتحكم الدقيق (Microcontroller) في روبوت بسيط؟",
+    options: [
+      "قراءة المدخلات وتنفيذ البرنامج للتحكم في المخرجات",
+      "تشغيل المحركات دون برنامج أو أوامر",
+      "تخزين كل ملفات المشروع فقط",
+      "زيادة سرعة الإنترنت داخل الروبوت",
+    ],
+    answer: "قراءة المدخلات وتنفيذ البرنامج للتحكم في المخرجات",
+    guidance: "المتحكم هو عقل صغير يقرأ الحساسات ويعطي أوامر للمخرجات.",
+    fr: {
+      prompt: "Quel est le rôle du microcontrôleur (Microcontroller) dans un robot simple ?",
+      options: [
+        "Lire les entrées et exécuter le programme pour contrôler les sorties",
+        "Faire tourner les moteurs sans programme ni ordre",
+        "Stocker seulement tous les fichiers du projet",
+        "Augmenter la vitesse d'Internet du robot",
+      ],
+      guidance: "Le microcontrôleur est un petit cerveau qui lit les capteurs et commande les sorties.",
+    },
+  },
+  "i-robot-002": {
+    options: ["محرك سيرفو (Servo Motor)", "محرك تيار مستمر عادي دون تحكم زاوي", "مصباح صغير (LED)", "حساس ضوء"],
+    guidance: "الزاوية الدقيقة تحتاج محركا يمكن توجيهه إلى وضعية محددة.",
+    fr: {
+      options: ["Un servomoteur (Servo Motor)", "Un moteur à courant continu simple sans contrôle d'angle", "Une petite LED", "Un capteur de lumière"],
+      guidance: "Un angle précis demande un moteur que l'on peut placer dans une position définie.",
+    },
+  },
+  "i-cs-003": {
+    options: ["المكدس (Stack)", "الطابور (Queue)", "القائمة (Array)", "خريطة القيم (Map)"],
+    answer: "المكدس (Stack)",
+    guidance: "في كومة الكتب، نأخذ عادة الكتاب الموجود في الأعلى أولا.",
+    fr: {
+      options: ["La pile (Stack)", "La file (Queue)", "Le tableau (Array)", "La table de clés (Map)"],
+      guidance: "Dans une pile de livres, on prend souvent le livre du dessus en premier.",
+    },
+  },
+  "i-cs-006": {
+    options: ["أسماء واضحة", "تقسيم منطقي للدوال", "أسماء مختصرة جدا لا توضح الدور", "تكرار نفس التعليمات دون تنظيم"],
+    answers: ["أسماء واضحة", "تقسيم منطقي للدوال"],
+    guidance: "الكود المقروء يساعدك أنت وزملاءك على فهم الحل وتصحيح الأخطاء.",
+    fr: {
+      options: ["Des noms clairs", "Une division logique en fonctions", "Des noms trop courts qui n'expliquent pas le rôle", "Répéter les mêmes instructions sans organisation"],
+      guidance: "Un code lisible aide à comprendre la solution et à corriger les erreurs.",
+    },
+  },
+  "a-ai-001": {
+    prompt: "في نموذج لغوي مثل ChatGPT، ماذا تعني نافذة السياق (Context Window)؟",
+    guidance: "فكر في مقدار الكلام أو الوثائق التي يمكن للنموذج أن يأخذها معه في نفس اللحظة.",
+    fr: {
+      prompt: "Dans un modèle de langage comme ChatGPT, que signifie la fenêtre de contexte (Context Window) ?",
+      guidance: "Pense à la quantité de texte ou de documents que le modèle peut prendre en compte à la fois.",
+    },
+  },
+  "a-cs-005": {
+    prompt: "ما الفكرة الأساسية في الاستدعاء الذاتي (Recursion)؟",
+    guidance: "الاستدعاء الذاتي يحتاج دائما حالة توقف حتى لا يستمر بلا نهاية.",
+    fr: {
+      prompt: "Quelle est l'idée principale de la récursion (Recursion) ?",
+      guidance: "La récursion a toujours besoin d'une condition d'arrêt.",
+    },
+  },
+};
+
+function defaultStudentGuidance(question) {
+  if (question.guidance) return question.guidance;
+  if (question.level === "beginner") return "السؤال يقيس الفكرة الأساسية؛ اقرأ المطلوب وابحث عن الاختيار المرتبط مباشرة بالمجال.";
+  if (question.level === "intermediate") return "فكر في الاستعمال العملي للمفهوم، وليس في اسمه فقط.";
+  return "المستوى المتقدم مناسب للمتفوقين، لكنه يركز على الفهم والتحقق وليس حفظ المصطلحات.";
+}
+
+function applyStudentReview(question) {
+  const override = studentQuestionOverrides[question.id] ?? {};
+  const reviewed = {
+    ...question,
+    ...override,
+    guidance: override.guidance ?? defaultStudentGuidance(question),
+  };
+  const fr = {
+    ...(question.fr ?? {}),
+    ...(override.fr ?? {}),
+  };
+  if (Object.keys(fr).length > 0) reviewed.fr = fr;
+  return reviewed;
+}
+
+const arabicEnglishTermRules = [
+  [/المصادقة الثنائية 2FA/g, "المصادقة الثنائية (2FA)"],
+  [/عنوان IP/g, "عنوان الشبكة (IP)"],
+  [/بيانات الاختبار Test Data/g, "بيانات الاختبار (Test Data)"],
+  [/معالجة اللغة الطبيعية NLP/g, "معالجة اللغة الطبيعية (NLP)"],
+  [/كلمة Prompt/g, "الطلب النصي (Prompt)"],
+  [/الطلب النصي Prompt/g, "الطلب النصي (Prompt)"],
+  [/(?<!\()Prompt/g, "طلب نصي (Prompt)"],
+  [/(?<!\()Prompt Engineering/g, "هندسة الطلبات (Prompt Engineering)"],
+  [/(?<!\()Few-shot/g, "أمثلة قليلة (Few-shot)"],
+  [/(?<!\()Fine-tuning/g, "التخصيص الدقيق (Fine-tuning)"],
+  [/(?<!\()Context Window/g, "نافذة السياق (Context Window)"],
+  [/(?<!\()Regularization/g, "تقنيات تقليل الحفظ الزائد (Regularization)"],
+  [/(?<!\()Overfitting/g, "فرط التكيف (Overfitting)"],
+  [/Precision وRecall وF1/g, "الدقة الإيجابية (Precision) والاسترجاع (Recall) ودرجة F1"],
+  [/درجة F1/g, "درجة التوازن (F1)"],
+  [/الدقة في الأجوبة الإيجابية Precision/g, "الدقة في الأجوبة الإيجابية (Precision)"],
+  [/القدرة على العثور على الحالات الصحيحة Recall/g, "القدرة على العثور على الحالات الصحيحة (Recall)"],
+  [/الدقة Accuracy/g, "الدقة العامة (Accuracy)"],
+  [/(?<!\()Accuracy/g, "الدقة العامة (Accuracy)"],
+  [/(?<!\()Precision/g, "الدقة الإيجابية (Precision)"],
+  [/(?<!\()Recall/g, "الاسترجاع (Recall)"],
+  [/(?<!\()RAG/g, "الربط بمصادر موثوقة (RAG)"],
+  [/تمثيل المعنى بالأرقام Embedding/g, "تمثيل المعنى بالأرقام (Embedding)"],
+  [/(?<!\()Embeddings/g, "تمثيلات المعنى الرقمية (Embeddings)"],
+  [/(?<!\()Embedding/g, "تمثيل المعنى الرقمي (Embedding)"],
+  [/(?<!\()Inference/g, "استعمال النموذج بعد التدريب (Inference)"],
+  [/(?<!\()Dataset Split/g, "تقسيم البيانات (Dataset Split)"],
+  [/(?<!\()Label/g, "وسم الفئة (Label)"],
+  [/(?<![A-Za-z(])AI(?![A-Za-z])/g, "الذكاء الاصطناعي (AI)"],
+  [/(?<![A-Za-z(])ML(?![A-Za-z])/g, "التعلم الآلي (ML)"],
+  [/(?<!\()Arduino/g, "لوحة أردوينو (Arduino)"],
+  [/(?<!\()Microcontroller/g, "المتحكم الدقيق (Microcontroller)"],
+  [/(?<!\()Servo motor/g, "محرك سيرفو (Servo Motor)"],
+  [/(?<!\()Servo Motor/g, "محرك سيرفو (Servo Motor)"],
+  [/(?<!\()Driver/g, "دارة قيادة المحرك (Driver)"],
+  [/(?<!\()PWM/g, "التحكم بالنبضات (PWM)"],
+  [/مصباح LED/g, "مصباح صغير (LED)"],
+  [/(?<!\()LED/g, "مصباح صغير (LED)"],
+  [/(?<!\()PID Controller/g, "متحكم تصحيح الخطأ (PID Controller)"],
+  [/(?<!\()PID/g, "تصحيح الخطأ التدريجي (PID)"],
+  [/(?<!\()Sensor Fusion/g, "دمج الحساسات (Sensor Fusion)"],
+  [/(?<!\()Feedback/g, "التغذية الراجعة (Feedback)"],
+  [/(?<!\()Odometry/g, "تقدير الحركة بالعجلات (Odometry)"],
+  [/(?<!\()SLAM/g, "بناء الخريطة وتحديد الموقع (SLAM)"],
+  [/(?<!\()IMU/g, "وحدة قياس الحركة (IMU)"],
+  [/(?<!\()HTML/g, "هيكلة الصفحات (HTML)"],
+  [/صفحة هيكلة الصفحات \(HTML\)/g, "صفحة ويب باستعمال هيكلة الصفحات (HTML)"],
+  [/(?<!\()CSS/g, "تنسيق الصفحات (CSS)"],
+  [/(?<!\()JavaScript/g, "جافاسكريبت (JavaScript)"],
+  [/(?<!\()Loop/g, "الحلقة (Loop)"],
+  [/(?<!\()Comment/g, "التعليق البرمجي (Comment)"],
+  [/(?<!\()Number/g, "عدد (Number)"],
+  [/نص String/g, "نص (String)"],
+  [/(?<!\()String/g, "نص (String)"],
+  [/(?<!\()Array/g, "القائمة (Array)"],
+  [/الدالة Function/g, "الدالة (Function)"],
+  [/(?<!\()Function/g, "الدالة (Function)"],
+  [/(?<!\()Binary Search/g, "البحث الثنائي (Binary Search)"],
+  [/(?<!\()API/g, "واجهة التطبيقات (API)"],
+  [/(?<!\()HTTPS/g, "بروتوكول الويب الآمن (HTTPS)"],
+  [/(?<!\()HTTP(?!S)/g, "بروتوكول الويب (HTTP)"],
+  [/(?<!\()JSON/g, "صيغة تبادل البيانات (JSON)"],
+  [/طابور Queue/g, "طابور (Queue)"],
+  [/مكدس Stack/g, "مكدس (Stack)"],
+  [/شجرة Tree/g, "شجرة (Tree)"],
+  [/رسم بياني Graph/g, "رسم بياني (Graph)"],
+  [/جدول بالمفاتيح Hash Map/g, "جدول بالمفاتيح (Hash Map)"],
+  [/(?<!\()Queue/g, "الطابور (Queue)"],
+  [/(?<!\()Stack/g, "المكدس (Stack)"],
+  [/(?<!\()Tree/g, "الشجرة (Tree)"],
+  [/(?<!\()Graph/g, "الرسم البياني (Graph)"],
+  [/(?<!Hash )(?<!\()Map/g, "خريطة القيم (Map)"],
+  [/قيمة صحيحة أو خاطئة Boolean/g, "قيمة منطقية (Boolean)"],
+  [/(?<!\()Boolean/g, "قيمة منطقية (Boolean)"],
+  [/(?<!\()OOP/g, "البرمجة الكائنية (OOP)"],
+  [/(?<!\()Encapsulation/g, "إخفاء التفاصيل داخل الكائن (Encapsulation)"],
+  [/(?<!\()Inheritance/g, "الوراثة (Inheritance)"],
+  [/(?<!\()Recursion/g, "الاستدعاء الذاتي (Recursion)"],
+  [/(?<!\()Hash Map/g, "جدول المفاتيح (Hash Map)"],
+  [/(?<!\()Git/g, "نظام تتبع النسخ (Git)"],
+  [/O\(log n\)/g, "النمو اللوغاريتمي (O(log n))"],
+  [/O\(n²\)/g, "النمو التربيعي (O(n²))"],
+  [/O\(n\)/g, "النمو الخطي (O(n))"],
+  [/O\(1\)/g, "الزمن الثابت (O(1))"],
+  [/(?<!\()CPU/g, "المعالج المركزي (CPU)"],
+  [/(?<!\()RAM/g, "الذاكرة العشوائية (RAM)"],
+  [/(?<!\()SSD/g, "قرص التخزين السريع (SSD)"],
+  [/(?<!\()GPU/g, "معالج الرسوميات (GPU)"],
+  [/(?<!\()GB/g, "جيجابايت (GB)"],
+  [/(?<!\()TB/g, "تيرابايت (TB)"],
+  [/(?<!\()Gigabyte/g, "جيجابايت (Gigabyte)"],
+  [/(?<!\()Volt/g, "فولت (Volt)"],
+  [/(?<!\()Meter/g, "متر (Meter)"],
+  [/(?<!\()Second/g, "ثانية (Second)"],
+  [/(?<!\()DNS/g, "نظام أسماء النطاقات (DNS)"],
+  [/عناوين IP/g, "عناوين الشبكة (IP)"],
+  [/حاوية Container/g, "حاوية (Container)"],
+  [/(?<!\()Phishing/g, "التصيد الإلكتروني (Phishing)"],
+  [/(?<!\()Open Source/g, "المصدر المفتوح (Open Source)"],
+  [/(?<!\()Bluetooth/g, "بلوتوث (Bluetooth)"],
+  [/(?<!\()Cloud/g, "الخدمات السحابية (Cloud)"],
+  [/(?<!\()Encryption/g, "التشفير (Encryption)"],
+  [/(?<!\()Containers/g, "الحاويات (Containers)"],
+  [/(?<!\()Container(?!s)/g, "الحاوية (Container)"],
+  [/(?<!\()Load Balancer/g, "موزع الحمل (Load Balancer)"],
+  [/جدار الحماية Firewall/g, "جدار الحماية (Firewall)"],
+  [/تأمين الاتصال TLS/g, "تأمين الاتصال (TLS)"],
+  [/نسخة احتياطية Backup/g, "نسخة احتياطية (Backup)"],
+  [/(?<!\()TLS/g, "تأمين الاتصال (TLS)"],
+  [/(?<!\()Firewall/g, "جدار الحماية (Firewall)"],
+  [/(?<!\()Backups/g, "نسخ احتياطية (Backups)"],
+  [/(?<!\()Backup(?!s)/g, "نسخة احتياطية (Backup)"],
+];
+
+function standardizeArabicEnglishTerms(text) {
+  if (typeof text !== "string") return text;
+  return arabicEnglishTermRules.reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), text);
+}
+
+function standardizeArabicQuestionTerms(question) {
+  const reviewed = {
+    ...question,
+    prompt: standardizeArabicEnglishTerms(question.prompt),
+    explanation: standardizeArabicEnglishTerms(question.explanation),
+    guidance: standardizeArabicEnglishTerms(question.guidance),
+  };
+  if (question.options) reviewed.options = question.options.map(standardizeArabicEnglishTerms);
+  if (typeof question.answer === "string") reviewed.answer = standardizeArabicEnglishTerms(question.answer);
+  if (question.answers) reviewed.answers = question.answers.map(standardizeArabicEnglishTerms);
+  if (question.correctOrder) reviewed.correctOrder = question.correctOrder.map(standardizeArabicEnglishTerms);
+  if (question.pairs) {
+    reviewed.pairs = question.pairs.map((pair) => ({
+      left: standardizeArabicEnglishTerms(pair.left),
+      right: standardizeArabicEnglishTerms(pair.right),
+    }));
+  }
+  return reviewed;
+}
+
+const pedagogicalArabicCleanupRules = [
+  [/المتحكم الدقيق المتحكم الدقيق \(Microcontroller\)/g, "المتحكم الدقيق (Microcontroller)"],
+  [/نافذة السياق نافذة السياق \(Context Window\)/g, "نافذة السياق (Context Window)"],
+  [/الاستدعاء الذاتي الاستدعاء الذاتي \(Recursion\)/g, "الاستدعاء الذاتي (Recursion)"],
+  [/حلقة الحلقة \(Loop\)/g, "حلقة (Loop)"],
+  [/التعليق التعليق البرمجي \(Comment\)/g, "تعليق برمجي (Comment)"],
+  [/تعليق التعليق البرمجي \(Comment\)/g, "تعليق برمجي (Comment)"],
+  [/القائمة القائمة \(Array\)/g, "القائمة (Array)"],
+  [/الخريطة خريطة القيم \(Map\)/g, "خريطة القيم (Map)"],
+  [/الطابور الطابور \(Queue\)/g, "الطابور (Queue)"],
+  [/المكدس المكدس \(Stack\)/g, "المكدس (Stack)"],
+  [/الرسم البياني الرسم البياني \(Graph\)/g, "الرسم البياني (Graph)"],
+  [/النص نص \(String\)/g, "النص (String)"],
+  [/التخصيص الدقيق التخصيص الدقيق \(Fine-tuning\)/g, "التخصيص الدقيق (Fine-tuning)"],
+  [/الخدمات السحابية الخدمات السحابية \(Cloud\)/g, "الخدمات السحابية (Cloud)"],
+  [/عنوان الشبكة \(IP\) Address/g, "عنوان الشبكة (IP)"],
+  [/H-Bridge/g, "جسر التحكم في المحرك (H-Bridge)"],
+  [/Motor Driver/g, "دارة قيادة المحرك (Motor Driver)"],
+  [/(?<!\()Computer Vision/g, "الرؤية الحاسوبية (Computer Vision)"],
+  [/(?<!\()I2C/g, "بروتوكول التواصل (I2C)"],
+  [/(?<!\()Path Planning/g, "تخطيط المسار (Path Planning)"],
+  [/(?<!\()Real-time Control/g, "التحكم الآني (Real-time Control)"],
+  [/(?<!\()IP Address/g, "عنوان الشبكة (IP Address)"],
+  [/(?<!\()Wheel Encoder/g, "حساس دوران العجلة (Wheel Encoder)"],
+  [/(?<!\()Safety Interlock/g, "قفل الأمان (Safety Interlock)"],
+  [/(?<!\()Debugging/g, "تصحيح الأخطاء (Debugging)"],
+  [/Virtual Machine/g, "آلة افتراضية (Virtual Machine)"],
+  [/Database Index/g, "فهرس قاعدة البيانات (Database Index)"],
+  [/(?<!\()Database(?! Index)/g, "قاعدة بيانات (Database)"],
+  [/Hash Table/g, "جدول تجزئة (Hash Table)"],
+  [/Monitoring/g, "مراقبة الأنظمة (Monitoring)"],
+  [/Incident Response/g, "الاستجابة للحوادث (Incident Response)"],
+  [/محرك DC/g, "محرك تيار مستمر (DC)"],
+  [/اختيار ([^.]+?) دون تحديد الهدف أو اختبار النتيجة\./g, "اختيار $1 دون تحديد الهدف أو اختبار النتيجة المناسبة."],
+  [/([^.]+?) يحل كل المشاكل تلقائيا دون فهم أو اختبار\./g, "اختيار $1 دون تحديد الهدف أو اختبار النتيجة المناسبة."],
+  [/استعمال ([^.]+?) عندما تكون الحاجة هي ([^.]+?) مع اختبار النتيجة\./g, "اختيار $1 مناسب عندما تكون المهمة هي $2، ثم نختبر النتيجة."],
+  [/تجربة ([^.]+?) على حالات متنوعة ومقارنة النتيجة بالهدف\./g, "اختبار $1 بأمثلة متنوعة ومقارنة النتيجة بالهدف."],
+  [/يمكن أن يكون ([^.]+?) مفيدا عندما نربطه بهدف واضح ثم نختبر النتيجة\./g, "يصبح استعمال $1 مفيدا عندما يكون الهدف واضحا ونختبر النتيجة."],
+];
+
+function cleanPedagogicalArabicText(text) {
+  if (typeof text !== "string") return text;
+  return pedagogicalArabicCleanupRules.reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), text);
+}
+
+function applyPedagogicalLanguageReview(question) {
+  const reviewed = {
+    ...question,
+    prompt: cleanPedagogicalArabicText(question.prompt),
+    explanation: cleanPedagogicalArabicText(question.explanation),
+    guidance: cleanPedagogicalArabicText(question.guidance),
+  };
+  if (question.options) reviewed.options = question.options.map(cleanPedagogicalArabicText);
+  if (typeof question.answer === "string") reviewed.answer = cleanPedagogicalArabicText(question.answer);
+  if (question.answers) reviewed.answers = question.answers.map(cleanPedagogicalArabicText);
+  if (question.correctOrder) reviewed.correctOrder = question.correctOrder.map(cleanPedagogicalArabicText);
+  if (question.pairs) {
+    reviewed.pairs = question.pairs.map((pair) => ({
+      left: cleanPedagogicalArabicText(pair.left),
+      right: cleanPedagogicalArabicText(pair.right),
+    }));
+  }
+  return reviewed;
+}
+
+export const questions = [...curatedQuestions, ...generatedQuestionExpansion]
+  .map(applyStudentReview)
+  .map(standardizeArabicQuestionTerms)
+  .map(applyPedagogicalLanguageReview);

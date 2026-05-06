@@ -8,6 +8,7 @@ import {
   getOptionLabel,
   getPairLeftLabel,
   getQuestionExplanation,
+  getQuestionGuidance,
   getQuestionPrompt,
   getTypeLabel,
   t,
@@ -396,6 +397,7 @@ function QuizScreen({
 }) {
   const complete = isAnswerComplete(question, answer);
   const timeRatio = Math.max(0, (timeLeft / levelConfig.seconds) * 100);
+  const guidance = getQuestionGuidance(question, language);
 
   return (
     <section className={`quiz-screen type-${question.type} ${feedback ? "has-feedback" : ""}`}>
@@ -431,6 +433,7 @@ function QuizScreen({
             <span>{getTypeLabel(question.type, language)}</span>
           </div>
           <h2>{getQuestionPrompt(question, language)}</h2>
+          {guidance && <p className="question-guidance">{guidance}</p>}
           <AnswerControl
             question={question}
             answer={answer}
