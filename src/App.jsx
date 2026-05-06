@@ -250,6 +250,7 @@ function App() {
           total={sessionQuestions.length}
         />
       )}
+      {screen !== "quiz" && <SiteFooter language={language} />}
     </main>
   );
 }
@@ -587,6 +588,26 @@ function ParticipantTag({ language, name }) {
       <span>{t(language, "participantBadge")}</span>
       <strong>{name}</strong>
     </div>
+  );
+}
+
+function SiteFooter({ language }) {
+  return (
+    <footer className="site-footer" aria-label={t(language, "footerAria")}>
+      <div className="footer-identity">
+        <strong className="footer-rights">{t(language, "footerRights")}</strong>
+        <div className="footer-club-line">
+          <span className="footer-mark" aria-hidden="true" />
+          <span>{t(language, "footerClub")}</span>
+        </div>
+        <p>{t(language, "footerPlatform")}</p>
+      </div>
+      <div className="footer-credit">
+        <span>{t(language, "footerCreditLabel")}</span>
+        <strong>{t(language, "footerCreditName")}</strong>
+      </div>
+      <p className="footer-note">{t(language, "footerNote")}</p>
+    </footer>
   );
 }
 

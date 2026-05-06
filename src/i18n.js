@@ -60,6 +60,13 @@ export const ui = {
       "حصل المشارك على {correct} من {total}. المنصة لا تحتفظ بأي بيانات، ويمكن بدء اختبار جديد مباشرة لمشارك آخر.",
     retryChallenge: "إعادة الاختبار",
     backHome: "الصفحة الرئيسية",
+    footerAria: "معلومات حقوق المنصة",
+    footerRights: "© 2025-2026 جميع الحقوق محفوظة",
+    footerClub: "IA & Robotics Club",
+    footerPlatform: "منصة أولمبياد المعلوميات التفاعلي - الدريوش",
+    footerCreditLabel: "تصميم وتطوير",
+    footerCreditName: "Mohamed ELRHAOUAT",
+    footerNote: "بروح الذكاء الاصطناعي والروبوتيك لخدمة التعلم الرقمي.",
   },
   fr: {
     languageLabel: "Langue du test",
@@ -107,6 +114,13 @@ export const ui = {
       "Le participant a obtenu {correct} sur {total}. La plateforme ne conserve aucune donnée et un nouveau test peut commencer immédiatement.",
     retryChallenge: "Recommencer le test",
     backHome: "Accueil",
+    footerAria: "Informations de droits de la plateforme",
+    footerRights: "© 2025-2026 Tous droits réservés",
+    footerClub: "IA & Robotics Club",
+    footerPlatform: "Plateforme de l'Olympiade interactive d'informatique - Driouch",
+    footerCreditLabel: "Conception et développement",
+    footerCreditName: "Mohamed ELRHAOUAT",
+    footerNote: "Créée avec une vision IA et robotique au service de l'apprentissage numérique.",
   },
 };
 
